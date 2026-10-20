@@ -2,7 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    # Every branch, not just main. `public/` is skipped because the update
+    # workflow commits it every 3 hours and those commits contain no code —
+    # a push that touches code *and* public/ still runs.
     paths-ignore:
       - "public/**"
   pull_request:
