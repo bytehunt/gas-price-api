@@ -292,3 +292,59 @@ def test_benchmark_reaches_the_index_and_summary(tmp_path, monkeypatch, no_delay
     summary = read(config.out_dir / API_PREFIX / "summary.json")
     assert summary["locations"][0]["area_average_regular"] == 4.18
     assert summary["locations"][0]["area"] == "Washington (MD only)"
+
+
+def test_summary_ranks_areas_when_no_station_prices_exist():
+    """The station rollup is empty without per-station data, so the area
+    rollup is what answers "which of my places is cheapest today"."""
+    entries = [
+        {
+            "name": "Rockville, MD",
+            "slug": "rockville-md",
+            "stale": False,
+            "degraded": False,
+            "cheapest": {},
+            "benchmark": {
+                "source": "aaa",
+                "scope": "metro",
+                "area": "Washington (MD only)",
+                "prices": {"regular": 4.176, "diesel": 6.407},
+            },
+        },
+        {
+            "name": "Frederick, MD",
+            "slug": "frederick-md",
+            "stale": False,
+            "degraded": False,
+            "cheapest": {},
+            "benchmark": {
+                "source": "aaa",
+                "scope": "metro",
+                "area": "Frederick",
+                "prices": {"regular": 4.097},
+            },
+        },
+    ]
+    summary = build_summary(entries, NOW)
+
+    assert summary["cheapest_by_fuel"] == {}
+    cheapest = summary["cheapest_area_average_by_fuel"]
+    assert cheapest["regular"]["price"] == 4.097
+    assert cheapest["regular"]["area"] == "Frederick"
+    assert cheapest["regular"]["location_slug"] == "frederick-md"
+    # Only Rockville reports diesel, so it wins by default.
+    assert cheapest["diesel"]["area"] == "Washington (MD only)"
+
+
+def test_summary_area_rollup_skips_locations_without_a_benchmark():
+    entries = [
+        {
+            "name": "A",
+            "slug": "a",
+            "stale": False,
+            "degraded": True,
+            "cheapest": {},
+            "benchmark": None,
+        },
+    ]
+    assert build_summary(entries, NOW)["cheapest_area_average_by_fuel"] == {}

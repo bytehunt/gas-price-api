@@ -28,6 +28,11 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The commit step rebases before pushing, which a shallow clone
+          # cannot do. Full history is also what makes `git log -p public/...`
+          # usable as a price history.
+          fetch-depth: 0
 
       - name: Install Nix
         uses: cachix/install-nix-action@v31

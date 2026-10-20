@@ -217,7 +217,7 @@ def _index_entry(spec: LocationSpec, payload: dict[str, Any], *, stale: bool) ->
 
 
 def build_summary(entries: list[dict[str, Any]], now: datetime) -> dict[str, Any]:
-    """Cheapest station per fuel across all tracked locations."""
+    """Cross-location rollup: cheapest station per fuel, and cheapest area."""
     best: dict[str, Any] = {}
     for entry in entries:
         for fuel, info in (entry.get("cheapest") or {}).items():
@@ -227,10 +227,31 @@ def build_summary(entries: list[dict[str, Any]], now: datetime) -> dict[str, Any
             current = best.get(fuel)
             if current is None or price < current["price"]:
                 best[fuel] = {**info, "location": entry["name"], "location_slug": entry["slug"]}
+
+    # Without per-station prices, `cheapest_by_fuel` is empty and this is the
+    # only thing that answers "where is gas cheapest among the places I track".
+    cheapest_area: dict[str, Any] = {}
+    for entry in entries:
+        benchmark = entry.get("benchmark") or {}
+        for fuel, price in (benchmark.get("prices") or {}).items():
+            if price is None:
+                continue
+            current = cheapest_area.get(fuel)
+            if current is None or price < current["price"]:
+                cheapest_area[fuel] = {
+                    "price": price,
+                    "area": benchmark.get("area"),
+                    "scope": benchmark.get("scope"),
+                    "source": benchmark.get("source"),
+                    "location": entry["name"],
+                    "location_slug": entry["slug"],
+                }
+
     return {
         "schema_version": SCHEMA_VERSION,
         "generated_at": now.isoformat(),
         "cheapest_by_fuel": best,
+        "cheapest_area_average_by_fuel": cheapest_area,
         "locations": [
             {
                 "slug": e["slug"],

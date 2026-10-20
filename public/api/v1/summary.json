@@ -1,6 +1,40 @@
 {
+  "cheapest_area_average_by_fuel": {
+    "diesel": {
+      "area": "Annapolis",
+      "location": "Annapolis, MD",
+      "location_slug": "annapolis-md",
+      "price": 6.337,
+      "scope": "metro",
+      "source": "aaa"
+    },
+    "midgrade": {
+      "area": "Frederick",
+      "location": "Frederick, MD",
+      "location_slug": "frederick-md",
+      "price": 4.521,
+      "scope": "metro",
+      "source": "aaa"
+    },
+    "premium": {
+      "area": "Baltimore",
+      "location": "Columbia, MD",
+      "location_slug": "columbia-md",
+      "price": 4.932,
+      "scope": "metro",
+      "source": "aaa"
+    },
+    "regular": {
+      "area": "Baltimore",
+      "location": "Columbia, MD",
+      "location_slug": "columbia-md",
+      "price": 4.054,
+      "scope": "metro",
+      "source": "aaa"
+    }
+  },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-20T15:07:09.929424+00:00",
+  "generated_at": "2026-10-20T15:14:21.545849+00:00",
   "locations": [
     {
       "area": "Washington (MD only)",
