@@ -1,0 +1,763 @@
+{
+  "benchmark": {
+    "area": "Baltimore",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.483,
+      "midgrade": 4.805,
+      "premium": 5.125,
+      "regular": 4.197
+    },
+    "prices": {
+      "diesel": 6.34,
+      "midgrade": 4.616,
+      "premium": 4.932,
+      "regular": 4.054
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.348,
+      "midgrade": 4.796,
+      "premium": 5.1,
+      "regular": 4.254
+    },
+    "year_ago": {
+      "diesel": 3.6,
+      "midgrade": 3.535,
+      "premium": 3.838,
+      "regular": 2.986
+    },
+    "yesterday": {
+      "diesel": 6.335,
+      "midgrade": 4.655,
+      "premium": 4.96,
+      "regular": 4.089
+    }
+  },
+  "cheapest": {},
+  "count": 30,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:09:50.568229Z",
+  "name": "Baltimore, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Baltimore, Maryland, United States",
+    "lat": 39.2908816,
+    "lon": -76.610759,
+    "query": "Baltimore, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 6.0,
+  "schema_version": "1",
+  "slug": "baltimore-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": null,
+        "line1": "405 Fallsway",
+        "line2": null,
+        "postal_code": "21202",
+        "region": "MD"
+      },
+      "brand": "City of Baltimore Fleet Management Division",
+      "cash_prices": {},
+      "distance_mi": 0.2,
+      "id": "osm:way/336348836",
+      "lat": 39.2934001,
+      "lon": -76.6088853,
+      "name": "Front Street Fuel Station (Government only)",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336348836"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "901 Orleans Street",
+        "line2": null,
+        "postal_code": "21202",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 0.4,
+      "id": "osm:way/336336716",
+      "lat": 39.2945676,
+      "lon": -76.604964,
+      "name": "Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336336716"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": null,
+        "line1": "1300 East Fayette Street",
+        "line2": null,
+        "postal_code": "21231",
+        "region": "MD"
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 0.63,
+      "id": "osm:way/336318498",
+      "lat": 39.2929809,
+      "lon": -76.5993502,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336318498"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "417 West Mulberry Street",
+        "line2": null,
+        "postal_code": "21201",
+        "region": "MD"
+      },
+      "brand": "Gulf",
+      "cash_prices": {},
+      "distance_mi": 0.64,
+      "id": "osm:way/336382890",
+      "lat": 39.2936796,
+      "lon": -76.6222192,
+      "name": "Gulf",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336382890"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 0.7,
+      "id": "osm:way/336384980",
+      "lat": 39.2932477,
+      "lon": -76.6235295,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336384980"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.7,
+      "id": "osm:way/336314453",
+      "lat": 39.2932066,
+      "lon": -76.5980188,
+      "name": "US Fuel",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336314453"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "1026 Eastern Avenue",
+        "line2": null,
+        "postal_code": null,
+        "region": "MD"
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.71,
+      "id": "osm:way/337284077",
+      "lat": 39.2855656,
+      "lon": -76.5994707,
+      "name": "Mystik",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/337284077"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 0.82,
+      "id": "osm:way/232675170",
+      "lat": 39.2845698,
+      "lon": -76.6237135,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/232675170"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 0.84,
+      "id": "osm:node/13659307450",
+      "lat": 39.2856132,
+      "lon": -76.5965002,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/13659307450"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": null,
+        "line1": "17 East Mount Royal Avenue",
+        "line2": null,
+        "postal_code": "21202",
+        "region": "MD"
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 1.01,
+      "id": "osm:node/499852086",
+      "lat": 39.305201,
+      "lon": -76.6147883,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/499852086"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "1100 South Hanover Street",
+        "line2": null,
+        "postal_code": "21230",
+        "region": "MD"
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.03,
+      "id": "osm:way/336369815",
+      "lat": 39.2764462,
+      "lon": -76.6157342,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336369815"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Amoco",
+      "cash_prices": {},
+      "distance_mi": 1.17,
+      "id": "osm:way/336284262",
+      "lat": 39.2955067,
+      "lon": -76.5897821,
+      "name": "Amoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336284262"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "2001 Orleans Street",
+        "line2": null,
+        "postal_code": "21231",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 1.2,
+      "id": "osm:way/336280608",
+      "lat": 39.2952173,
+      "lon": -76.5889348,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336280608"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "1801 North Charles Street",
+        "line2": null,
+        "postal_code": "21201",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 1.36,
+      "id": "osm:way/241939924",
+      "lat": 39.3100434,
+      "lon": -76.6162712,
+      "name": "Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/241939924"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.39,
+      "id": "osm:way/338084807",
+      "lat": 39.272534,
+      "lon": -76.6002854,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/338084807"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.45,
+      "id": "osm:way/169058434",
+      "lat": 39.271945,
+      "lon": -76.5990793,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/169058434"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "1500 Russell Street",
+        "line2": null,
+        "postal_code": "21230",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 1.46,
+      "id": "osm:way/196489158",
+      "lat": 39.2744212,
+      "lon": -76.6277904,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489158"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.48,
+      "id": "osm:way/196489164",
+      "lat": 39.2742613,
+      "lon": -76.6281901,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489164"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.52,
+      "id": "osm:way/196489148",
+      "lat": 39.2737889,
+      "lon": -76.6287842,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489148"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.53,
+      "id": "osm:way/336327420",
+      "lat": 39.3119961,
+      "lon": -76.6022711,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336327420"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.55,
+      "id": "osm:node/9984151026",
+      "lat": 39.3129348,
+      "lon": -76.6164081,
+      "name": "American Fuel",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/9984151026"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.57,
+      "id": "osm:way/196489151",
+      "lat": 39.2732252,
+      "lon": -76.6293649,
+      "name": "Dash In",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489151"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.59,
+      "id": "osm:way/274764930",
+      "lat": 39.3128088,
+      "lon": -76.619782,
+      "name": "Oceanic",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/274764930"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.62,
+      "id": "osm:way/196489145",
+      "lat": 39.2724963,
+      "lon": -76.6294212,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489145"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.66,
+      "id": "osm:way/196489541",
+      "lat": 39.2722981,
+      "lon": -76.6305571,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/196489541"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.68,
+      "id": "osm:node/2960386437",
+      "lat": 39.2785954,
+      "lon": -76.6377714,
+      "name": "U S Gas",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/2960386437"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "2601 Fleet Street",
+        "line2": null,
+        "postal_code": "21224",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.72,
+      "id": "osm:way/198693828",
+      "lat": 39.2849678,
+      "lon": -76.5795819,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/198693828"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "2223 North Howard Street",
+        "line2": null,
+        "postal_code": "21218",
+        "region": "MD"
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.72,
+      "id": "osm:way/273393769",
+      "lat": 39.3148404,
+      "lon": -76.619233,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/273393769"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": "US",
+        "line1": "2101 Harford Road",
+        "line2": null,
+        "postal_code": "21218",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 1.78,
+      "id": "osm:way/336312915",
+      "lat": 39.3144366,
+      "lon": -76.5974717,
+      "name": "Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/336312915"
+    },
+    {
+      "address": {
+        "city": "Baltimore",
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Crown",
+      "cash_prices": {},
+      "distance_mi": 1.85,
+      "id": "osm:node/2576449979",
+      "lat": 39.310007,
+      "lon": -76.634982,
+      "name": "Crown",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/2576449979"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}

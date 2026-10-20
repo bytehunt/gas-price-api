@@ -1,0 +1,71 @@
+# Locations the GitHub Action refreshes on a schedule.
+#
+# Each entry needs either a `query` (ZIP code, "City, ST", or "lat,lon") or an
+# explicit lat/lon pair. `slug` becomes the API path:
+#   public/api/v1/locations/<slug>.json
+#
+# `aaa_metro` pins which AAA metro average to attach. Set it when your town's
+# name isn't itself an AAA metro — most of the DC suburbs fall under
+# "Washington (MD only)", which no amount of string matching would guess.
+# Run `gasprice fetch <place> --json | jq .benchmark` to see what you got.
+
+site_title: Maryland Gas Prices
+out_dir: public
+
+# Provider chain for station discovery, tried in order.
+#
+# `gasbuddy` is NOT listed: it is the only free source of per-station US prices
+# and it blocks automated access (403 on its pages, 400 on its GraphQL API), so
+# including it just adds failed requests. Add it here if you have a working
+# route; the station list below will then carry real per-station prices.
+providers:
+  - overpass
+
+defaults:
+  radius_miles: 5
+  max_stations: 25
+  fuels:
+    - regular
+    - midgrade
+    - premium
+    - diesel
+
+locations:
+  - name: Rockville, MD
+    slug: rockville-md
+    query: "Rockville, MD"
+    aaa_metro: Washington (MD only)
+
+  - name: Silver Spring, MD
+    slug: silver-spring-md
+    query: "20910"
+    aaa_metro: Washington (MD only)
+
+  - name: Bethesda, MD
+    slug: bethesda-md
+    query: "Bethesda, MD"
+    aaa_metro: Washington (MD only)
+
+  - name: Columbia, MD
+    slug: columbia-md
+    query: "Columbia, MD"
+    radius_miles: 7
+    aaa_metro: Baltimore
+
+  - name: Baltimore, MD
+    slug: baltimore-md
+    query: "Baltimore, MD"
+    radius_miles: 6
+    max_stations: 30
+    aaa_metro: Baltimore
+
+  - name: Annapolis, MD
+    slug: annapolis-md
+    query: "Annapolis, MD"
+    aaa_metro: Annapolis
+
+  - name: Frederick, MD
+    slug: frederick-md
+    query: "Frederick, MD"
+    radius_miles: 8
+    aaa_metro: Frederick

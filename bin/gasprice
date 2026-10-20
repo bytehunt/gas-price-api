@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+"""Dev-shell entry point.
+
+The flake's devShell puts ./bin on PATH and ./src on PYTHONPATH, so `gasprice`
+works in a checkout without an install step — and the CI workflow can call the
+exact same command the README documents.
+"""
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+
+from gasprice.cli import main  # noqa: E402
+
+if __name__ == "__main__":
+    raise SystemExit(main())

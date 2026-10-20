@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            accept-flake-config = true
+
+      - name: Lint
+        run: nix develop --command ruff check .
+
+      - name: Format check
+        run: nix develop --command ruff format --check .
+
+      - name: Tests
+        run: nix develop --command pytest -q
+
+      - name: Build the package
+        run: nix build .#gasprice
+
+      - name: CLI smoke test
+        run: nix run . -- --version

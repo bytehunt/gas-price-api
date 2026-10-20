@@ -1,0 +1,653 @@
+{
+  "benchmark": {
+    "area": "Baltimore",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.483,
+      "midgrade": 4.805,
+      "premium": 5.125,
+      "regular": 4.197
+    },
+    "prices": {
+      "diesel": 6.34,
+      "midgrade": 4.616,
+      "premium": 4.932,
+      "regular": 4.054
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.348,
+      "midgrade": 4.796,
+      "premium": 5.1,
+      "regular": 4.254
+    },
+    "year_ago": {
+      "diesel": 3.6,
+      "midgrade": 3.535,
+      "premium": 3.838,
+      "regular": 2.986
+    },
+    "yesterday": {
+      "diesel": 6.335,
+      "midgrade": 4.655,
+      "premium": 4.96,
+      "regular": 4.089
+    }
+  },
+  "cheapest": {},
+  "count": 25,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:09:10.411141Z",
+  "name": "Columbia, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Columbia, Howard County, Maryland, United States",
+    "lat": 39.1938429,
+    "lon": -76.8646092,
+    "query": "Columbia, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 7.0,
+  "schema_version": "1",
+  "slug": "columbia-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 0.69,
+      "id": "osm:way/195123288",
+      "lat": 39.1974736,
+      "lon": -76.8525718,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/195123288"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 0.94,
+      "id": "osm:way/161135241",
+      "lat": 39.1952292,
+      "lon": -76.881992,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/161135241"
+    },
+    {
+      "address": {
+        "city": "Columbia",
+        "country": null,
+        "line1": "7248 Cradlerock Way",
+        "line2": null,
+        "postal_code": "21045-5068",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.15,
+      "id": "osm:way/198703057",
+      "lat": 39.1860411,
+      "lon": -76.8456123,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/198703057"
+    },
+    {
+      "address": {
+        "city": "Columbia",
+        "country": null,
+        "line1": "7248 Cradlerock Way",
+        "line2": null,
+        "postal_code": "21045-5068",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.16,
+      "id": "osm:way/558146527",
+      "lat": 39.1861849,
+      "lon": -76.8453889,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/558146527"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.39,
+      "id": "osm:way/156703318",
+      "lat": 39.2133578,
+      "lon": -76.8708363,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/156703318"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.4,
+      "id": "osm:way/156703319",
+      "lat": 39.213507,
+      "lon": -76.8710553,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/156703319"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.61,
+      "id": "osm:way/178582212",
+      "lat": 39.177087,
+      "lon": -76.8438408,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/178582212"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.63,
+      "id": "osm:way/149174560",
+      "lat": 39.1762614,
+      "lon": -76.8443104,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/149174560"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "7201 Eden Brook Drive",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.66,
+      "id": "osm:way/149736851",
+      "lat": 39.169878,
+      "lon": -76.8656991,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/149736851"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.74,
+      "id": "osm:way/108139029",
+      "lat": 39.2184314,
+      "lon": -76.8576381,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/108139029"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 2.32,
+      "id": "osm:way/198702196",
+      "lat": 39.1967422,
+      "lon": -76.8214445,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/198702196"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "6345 Dobbin Road",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BJ's Wholesale Club",
+      "cash_prices": {},
+      "distance_mi": 2.39,
+      "id": "osm:way/146228896",
+      "lat": 39.1966105,
+      "lon": -76.8202121,
+      "name": "BJ's",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/146228896"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 2.39,
+      "id": "osm:way/233534452",
+      "lat": 39.221921,
+      "lon": -76.890667,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/233534452"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.48,
+      "id": "osm:way/146133443",
+      "lat": 39.1828148,
+      "lon": -76.8205409,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/146133443"
+    },
+    {
+      "address": {
+        "city": "Columbia",
+        "country": null,
+        "line1": "6251 Columbia Crossing Circle",
+        "line2": null,
+        "postal_code": null,
+        "region": "MD"
+      },
+      "brand": "Mobil",
+      "cash_prices": {},
+      "distance_mi": 2.69,
+      "id": "osm:way/146254423",
+      "lat": 39.1992765,
+      "lon": -76.8147953,
+      "name": "Mobil",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/146254423"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.79,
+      "id": "osm:way/199676834",
+      "lat": 39.1597898,
+      "lon": -76.8925975,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/199676834"
+    },
+    {
+      "address": {
+        "city": "Columbia",
+        "country": null,
+        "line1": "6000 Foreland Garth",
+        "line2": null,
+        "postal_code": "21045",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.83,
+      "id": "osm:way/203375294",
+      "lat": 39.2071883,
+      "lon": -76.8145554,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/203375294"
+    },
+    {
+      "address": {
+        "city": "Ellicott City",
+        "country": null,
+        "line1": "5651 Waterloo Road",
+        "line2": null,
+        "postal_code": "21043",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 3.56,
+      "id": "osm:way/161719995",
+      "lat": 39.2157969,
+      "lon": -76.8045475,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/161719995"
+    },
+    {
+      "address": {
+        "city": "Columbia",
+        "country": null,
+        "line1": "8251 Snowden River Parkway",
+        "line2": null,
+        "postal_code": "21045",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 3.58,
+      "id": "osm:way/156707994",
+      "lat": 39.2094493,
+      "lon": -76.8009389,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/156707994"
+    },
+    {
+      "address": {
+        "city": "Ellicott City",
+        "country": null,
+        "line1": "4755 Dorsey Hall Drive",
+        "line2": null,
+        "postal_code": "21042",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 3.6,
+      "id": "osm:way/157963611",
+      "lat": 39.2424661,
+      "lon": -76.8405653,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/157963611"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 3.64,
+      "id": "osm:way/148654657",
+      "lat": 39.2280545,
+      "lon": -76.8129833,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/148654657"
+    },
+    {
+      "address": {
+        "city": "Elkridge",
+        "country": null,
+        "line1": "6670 Marie Curie Drive",
+        "line2": null,
+        "postal_code": "21075",
+        "region": "MD"
+      },
+      "brand": "Costco",
+      "cash_prices": {},
+      "distance_mi": 3.75,
+      "id": "osm:way/201018313",
+      "lat": 39.1872909,
+      "lon": -76.7950571,
+      "name": "Costco Gasoline",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/201018313"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 3.89,
+      "id": "osm:way/174959792",
+      "lat": 39.1472566,
+      "lon": -76.9055391,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/174959792"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 4.12,
+      "id": "osm:way/130101820",
+      "lat": 39.2099668,
+      "lon": -76.9386445,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/130101820"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 4.25,
+      "id": "osm:way/164981869",
+      "lat": 39.2066258,
+      "lon": -76.9423077,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/164981869"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}

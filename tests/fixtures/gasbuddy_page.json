@@ -1,0 +1,119 @@
+{
+  "data": {
+    "locationBySearchTerm": {
+      "displayName": "Rockville, MD",
+      "latitude": 39.084,
+      "longitude": -77.1528,
+      "countryCode": "US",
+      "regionCode": "MD",
+      "trends": [
+        {
+          "areaName": "Rockville",
+          "today": 3.149,
+          "todayLow": 2.879,
+          "trend": -0.021
+        }
+      ],
+      "stations": {
+        "count": 3,
+        "cursor": {
+          "next": "cursor-page-2"
+        },
+        "results": [
+          {
+            "id": "11111",
+            "name": "Costco",
+            "latitude": 39.0855,
+            "longitude": -77.1501,
+            "priceUnit": "dollars_per_gallon",
+            "starRating": 4.5,
+            "ratingsCount": 120,
+            "address": {
+              "line1": "1200 Rockville Pike",
+              "line2": null,
+              "locality": "Rockville",
+              "region": "MD",
+              "postalCode": "20852",
+              "country": "US"
+            },
+            "brands": [
+              { "name": "Loyalty Thing", "brandingType": "OTHER" },
+              { "name": "Costco", "brandingType": "FUEL" }
+            ],
+            "prices": [
+              {
+                "fuelProduct": "regular_gas",
+                "credit": { "nickname": "fueluser1", "price": 2.879, "postedTime": "2026-10-20T11:00:00.000Z" },
+                "cash": { "nickname": "fueluser1", "price": 2.829, "postedTime": "2026-10-20T11:00:00.000Z" }
+              },
+              {
+                "fuelProduct": "premium_gas",
+                "credit": { "nickname": "fueluser2", "price": 3.479, "postedTime": "2026-10-20T09:30:00.000Z" },
+                "cash": null
+              },
+              {
+                "fuelProduct": "diesel",
+                "credit": { "nickname": null, "price": 0, "postedTime": null },
+                "cash": null
+              }
+            ]
+          },
+          {
+            "id": "22222",
+            "name": "Shell",
+            "latitude": 39.0901,
+            "longitude": -77.1602,
+            "priceUnit": "dollars_per_gallon",
+            "starRating": null,
+            "ratingsCount": null,
+            "address": {
+              "line1": "900 Veirs Mill Rd",
+              "line2": null,
+              "locality": "Rockville",
+              "region": "MD",
+              "postalCode": "20851",
+              "country": "US"
+            },
+            "brands": [{ "name": "Shell", "brandingType": "FUEL" }],
+            "prices": [
+              {
+                "fuelProduct": "regular_gas",
+                "credit": { "nickname": "driver9", "price": 3.299, "postedTime": "2026-10-19T22:15:00.000Z" },
+                "cash": null
+              },
+              {
+                "fuelProduct": "diesel",
+                "credit": { "nickname": "driver9", "price": 3.999, "postedTime": "2026-10-19T22:15:00.000Z" },
+                "cash": null
+              }
+            ]
+          },
+          {
+            "id": "33333",
+            "name": "Far Away Fuel",
+            "latitude": 39.6000,
+            "longitude": -77.9000,
+            "priceUnit": "dollars_per_gallon",
+            "starRating": 3.0,
+            "ratingsCount": 4,
+            "address": {
+              "line1": "1 Distant Rd",
+              "locality": "Hagerstown",
+              "region": "MD",
+              "postalCode": "21740",
+              "country": "US"
+            },
+            "brands": [],
+            "prices": [
+              {
+                "fuelProduct": "regular_gas",
+                "credit": { "nickname": "someone", "price": 2.499, "postedTime": "2026-10-20T08:00:00.000Z" },
+                "cash": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

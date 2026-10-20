@@ -1,0 +1,653 @@
+{
+  "benchmark": {
+    "area": "Frederick",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.47,
+      "midgrade": 4.69,
+      "premium": 5.016,
+      "regular": 4.202
+    },
+    "prices": {
+      "diesel": 6.381,
+      "midgrade": 4.521,
+      "premium": 4.946,
+      "regular": 4.097
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.389,
+      "midgrade": 4.682,
+      "premium": 5.011,
+      "regular": 4.207
+    },
+    "year_ago": {
+      "diesel": 3.614,
+      "midgrade": 3.445,
+      "premium": 3.783,
+      "regular": 2.978
+    },
+    "yesterday": {
+      "diesel": 6.389,
+      "midgrade": 4.565,
+      "premium": 4.942,
+      "regular": 4.126
+    }
+  },
+  "cheapest": {},
+  "count": 25,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:11:07.927424Z",
+  "name": "Frederick, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Frederick, Frederick County, Maryland, 21709, United States",
+    "lat": 39.415779,
+    "lon": -77.4127562,
+    "query": "Frederick, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 8.0,
+  "schema_version": "1",
+  "slug": "frederick-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 0.66,
+      "id": "osm:node/5908615538",
+      "lat": 39.4250644,
+      "lon": -77.4157182,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/5908615538"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.75,
+      "id": "osm:way/445313995",
+      "lat": 39.4097077,
+      "lon": -77.4244883,
+      "name": "Jefferson Street SERVICE CENTER",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/445313995"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.85,
+      "id": "osm:way/966565126",
+      "lat": 39.4088312,
+      "lon": -77.4259005,
+      "name": "A-1 Choice",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/966565126"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Costco Gasoline",
+      "cash_prices": {},
+      "distance_mi": 0.98,
+      "id": "osm:way/158395094",
+      "lat": 39.4018035,
+      "lon": -77.4096157,
+      "name": "Costco Gasoline",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/158395094"
+    },
+    {
+      "address": {
+        "city": "Frederick",
+        "country": null,
+        "line1": "342 South Jefferson Street",
+        "line2": null,
+        "postal_code": "21701",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.03,
+      "id": "osm:way/962696400",
+      "lat": 39.4075342,
+      "lon": -77.4287686,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/962696400"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 1.07,
+      "id": "osm:way/310740549",
+      "lat": 39.4295011,
+      "lon": -77.4034251,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/310740549"
+    },
+    {
+      "address": {
+        "city": "Frederick",
+        "country": null,
+        "line1": "400 South Jefferson Street",
+        "line2": null,
+        "postal_code": "21701",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.08,
+      "id": "osm:way/629121558",
+      "lat": 39.4070176,
+      "lon": -77.4294996,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/629121558"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "GetGo",
+      "cash_prices": {},
+      "distance_mi": 1.11,
+      "id": "osm:way/364840378",
+      "lat": 39.4306609,
+      "lon": -77.4206254,
+      "name": "GetGo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/364840378"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sheetz",
+      "cash_prices": {},
+      "distance_mi": 1.21,
+      "id": "osm:way/916491207",
+      "lat": 39.4263679,
+      "lon": -77.4307887,
+      "name": "Sheetz",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/916491207"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sheetz",
+      "cash_prices": {},
+      "distance_mi": 1.22,
+      "id": "osm:way/1041842256",
+      "lat": 39.3989071,
+      "lon": -77.4061643,
+      "name": "Sheetz",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1041842256"
+    },
+    {
+      "address": {
+        "city": "frederick",
+        "country": null,
+        "line1": "1704 Rosemont Avenue",
+        "line2": null,
+        "postal_code": "21702",
+        "region": "md"
+      },
+      "brand": "https://www.rosemontservicestation.com/",
+      "cash_prices": {},
+      "distance_mi": 1.33,
+      "id": "osm:node/13180653443",
+      "lat": 39.4278438,
+      "lon": -77.4321436,
+      "name": "Rosemont Service Station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/13180653443"
+    },
+    {
+      "address": {
+        "city": "Frederick",
+        "country": null,
+        "line1": "75 Monocacy Boulevard",
+        "line2": null,
+        "postal_code": "21701",
+        "region": "MD"
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.33,
+      "id": "osm:way/1295106160",
+      "lat": 39.4058424,
+      "lon": -77.3915104,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1295106160"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.33,
+      "id": "osm:way/1423397827",
+      "lat": 39.4278938,
+      "lon": -77.43209,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1423397827"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.35,
+      "id": "osm:way/158406215",
+      "lat": 39.408294,
+      "lon": -77.3893216,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/158406215"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.37,
+      "id": "osm:way/368216197",
+      "lat": 39.3961998,
+      "lon": -77.4082573,
+      "name": "Southern States",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/368216197"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.37,
+      "id": "osm:way/368216200",
+      "lat": 39.3962252,
+      "lon": -77.4085669,
+      "name": "Southern States",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/368216200"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Wawa",
+      "cash_prices": {},
+      "distance_mi": 1.39,
+      "id": "osm:way/642901202",
+      "lat": 39.416684,
+      "lon": -77.4388612,
+      "name": "Wawa",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/642901202"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.4,
+      "id": "osm:way/420926926",
+      "lat": 39.4159073,
+      "lon": -77.4389455,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/420926926"
+    },
+    {
+      "address": {
+        "city": "Frederick",
+        "country": null,
+        "line1": "5831 Buckeystown Pike",
+        "line2": null,
+        "postal_code": "21704",
+        "region": "MD"
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.42,
+      "id": "osm:way/1419476588",
+      "lat": 39.3954367,
+      "lon": -77.4086033,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1419476588"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sheetz",
+      "cash_prices": {},
+      "distance_mi": 1.44,
+      "id": "osm:way/504881848",
+      "lat": 39.4068268,
+      "lon": -77.3883195,
+      "name": "Sheetz",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/504881848"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sheetz",
+      "cash_prices": {},
+      "distance_mi": 1.46,
+      "id": "osm:way/185918297",
+      "lat": 39.4069116,
+      "lon": -77.3878733,
+      "name": "Sheetz",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/185918297"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.54,
+      "id": "osm:way/314504669",
+      "lat": 39.4379433,
+      "lon": -77.4107456,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/314504669"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.57,
+      "id": "osm:node/9858734685",
+      "lat": 39.4365854,
+      "lon": -77.4247011,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/9858734685"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "7-Eleven",
+      "cash_prices": {},
+      "distance_mi": 1.74,
+      "id": "osm:way/368214246",
+      "lat": 39.3908297,
+      "lon": -77.4088359,
+      "name": "7-Eleven",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/368214246"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Valero",
+      "cash_prices": {},
+      "distance_mi": 1.98,
+      "id": "osm:way/368213047",
+      "lat": 39.3871455,
+      "lon": -77.4097687,
+      "name": "Valero",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/368213047"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}

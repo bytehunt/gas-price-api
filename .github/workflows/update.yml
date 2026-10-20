@@ -1,0 +1,102 @@
+name: Update prices
+
+on:
+  schedule:
+    # Every 3 hours. Offset from :00 because scheduled runs cluster on the hour
+    # and GitHub drops jobs it cannot start.
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      fail_on_degraded:
+        description: "Fail the run if any location came back without prices"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit the refreshed data back
+  pages: write
+  id-token: write
+
+# Never let two refreshes race on the same branch.
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            accept-flake-config = true
+
+      # The closure is pulled from cache.nixos.org in well under a minute. If you
+      # want it faster, add nix-community/cache-nix-action here — it saves the
+      # store *and* its database, which a plain actions/cache on /nix/store does
+      # not, so the restored paths are actually usable.
+
+      - name: Collect prices
+        id: collect
+        env:
+          # Nominatim and Overpass ask that automated clients identify themselves.
+          GASPRICE_USER_AGENT: >-
+            gas-price-api/0.1 (+https://github.com/${{ github.repository }})
+          # No local caching in CI: every run should hit the providers fresh.
+          GASPRICE_CACHE_DIR: /tmp/gasprice-cache
+        run: |
+          nix develop --command gasprice collect -v \
+            ${{ inputs.fail_on_degraded && '--fail-on-degraded' || '' }}
+
+      - name: Summarize
+        if: always()
+        run: |
+          if [ -f public/api/v1/summary.json ]; then
+            {
+              echo "### Cheapest regular by location"
+              echo
+              echo "| Location | Regular | Status |"
+              echo "| --- | --- | --- |"
+              nix develop --command jq -r '
+                .locations[]
+                | "| \(.name) | \(if .regular then "$" + (.regular|tostring) else "—" end) | \(if .stale then "stale" elif .degraded then "degraded" else "ok" end) |"
+              ' public/api/v1/summary.json
+              echo
+              echo "_Generated $(nix develop --command jq -r .generated_at public/api/v1/summary.json)_"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public
+          if git diff --cached --quiet; then
+            echo "No price changes."
+            exit 0
+          fi
+          # The commit history of public/ is the free price history.
+          git commit -m "data: refresh prices ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          # A concurrent run may have pushed first; rebase rather than fail.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

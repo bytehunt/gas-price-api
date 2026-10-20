@@ -1,0 +1,653 @@
+{
+  "benchmark": {
+    "area": "Annapolis",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.483,
+      "midgrade": 4.899,
+      "premium": 5.177,
+      "regular": 4.205
+    },
+    "prices": {
+      "diesel": 6.337,
+      "midgrade": 4.743,
+      "premium": 5.003,
+      "regular": 4.074
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.34,
+      "midgrade": 4.887,
+      "premium": 5.189,
+      "regular": 4.264
+    },
+    "year_ago": {
+      "diesel": 3.604,
+      "midgrade": 3.613,
+      "premium": 3.957,
+      "regular": 3.006
+    },
+    "yesterday": {
+      "diesel": 6.346,
+      "midgrade": 4.764,
+      "premium": 5.054,
+      "regular": 4.104
+    }
+  },
+  "cheapest": {},
+  "count": 25,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:10:31.450880Z",
+  "name": "Annapolis, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Annapolis, Anne Arundel County, Maryland, United States",
+    "lat": 38.9786401,
+    "lon": -76.492786,
+    "query": "Annapolis, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 5.0,
+  "schema_version": "1",
+  "slug": "annapolis-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": "Annapolis",
+        "country": null,
+        "line1": "111 West Street",
+        "line2": null,
+        "postal_code": "21401",
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 0.24,
+      "id": "osm:way/235319984",
+      "lat": 38.9777669,
+      "lon": -76.4971296,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/235319984"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 0.7,
+      "id": "osm:way/338424377",
+      "lat": 38.9706371,
+      "lon": -76.4846631,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/338424377"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 0.87,
+      "id": "osm:way/436419414",
+      "lat": 38.9767735,
+      "lon": -76.508849,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/436419414"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.98,
+      "id": "osm:node/13163765917",
+      "lat": 38.9730625,
+      "lon": -76.5095034,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/13163765917"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 1.06,
+      "id": "osm:way/436463779",
+      "lat": 38.9907223,
+      "lon": -76.5048788,
+      "name": "Carroll Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/436463779"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.11,
+      "id": "osm:way/367037260",
+      "lat": 38.9772999,
+      "lon": -76.513357,
+      "name": "Oceanic",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/367037260"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.6,
+      "id": "osm:way/1154418212",
+      "lat": 38.994039,
+      "lon": -76.4705731,
+      "name": "NEX Gas Station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1154418212"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "502 Cherry Grove Avenue",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 1.65,
+      "id": "osm:way/436417003",
+      "lat": 38.969212,
+      "lon": -76.5209325,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/436417003"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.72,
+      "id": "osm:way/277315315",
+      "lat": 38.9564638,
+      "lon": -76.5074734,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/277315315"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "1824 Forest Drive",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 1.74,
+      "id": "osm:way/436419104",
+      "lat": 38.9731835,
+      "lon": -76.5243868,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/436419104"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "1926 West Street",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.75,
+      "id": "osm:way/501514553",
+      "lat": 38.9804546,
+      "lon": -76.5252836,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/501514553"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.76,
+      "id": "osm:way/277315312",
+      "lat": 38.9551133,
+      "lon": -76.5054653,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/277315312"
+    },
+    {
+      "address": {
+        "city": "Annapolis",
+        "country": null,
+        "line1": "2232 Bay Ridge Avenue",
+        "line2": null,
+        "postal_code": "21403",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.94,
+      "id": "osm:way/250906694",
+      "lat": 38.9505646,
+      "lon": -76.4928507,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/250906694"
+    },
+    {
+      "address": {
+        "city": "Annapolis",
+        "country": null,
+        "line1": "1000 Forest Drive",
+        "line2": null,
+        "postal_code": "21403",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.98,
+      "id": "osm:way/250906693",
+      "lat": 38.9499766,
+      "lon": -76.493275,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/250906693"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.12,
+      "id": "osm:way/363238402",
+      "lat": 38.9825167,
+      "lon": -76.5318903,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/363238402"
+    },
+    {
+      "address": {
+        "city": "Annapolis",
+        "country": null,
+        "line1": "2044 West Street",
+        "line2": null,
+        "postal_code": "21401",
+        "region": "MD"
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 2.48,
+      "id": "osm:way/363238405",
+      "lat": 38.9838324,
+      "lon": -76.5384342,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/363238405"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.5,
+      "id": "osm:way/501514555",
+      "lat": 38.9834035,
+      "lon": -76.5390186,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/501514555"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.54,
+      "id": "osm:way/367135415",
+      "lat": 38.9839511,
+      "lon": -76.539637,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/367135415"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 2.55,
+      "id": "osm:way/367129387",
+      "lat": 38.9760409,
+      "lon": -76.5402087,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/367129387"
+    },
+    {
+      "address": {
+        "city": "Annapolis",
+        "country": null,
+        "line1": "811 Bestgate Road",
+        "line2": null,
+        "postal_code": "21401",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.6,
+      "id": "osm:way/375733987",
+      "lat": 38.9938124,
+      "lon": -76.5369996,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/375733987"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.91,
+      "id": "osm:node/3790648259",
+      "lat": 38.985119,
+      "lon": -76.546344,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3790648259"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sam's Club",
+      "cash_prices": {},
+      "distance_mi": 3.19,
+      "id": "osm:way/436712822",
+      "lat": 38.9898246,
+      "lon": -76.5504117,
+      "name": "Sam's Club Gas Station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/436712822"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 3.26,
+      "id": "osm:way/154254273",
+      "lat": 39.0228332,
+      "lon": -76.4713052,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/154254273"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Crown",
+      "cash_prices": {},
+      "distance_mi": 3.33,
+      "id": "osm:way/193046080",
+      "lat": 39.0240482,
+      "lon": -76.4719972,
+      "name": "Crown",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/193046080"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 3.34,
+      "id": "osm:node/10314082021",
+      "lat": 38.9758865,
+      "lon": -76.5548463,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/10314082021"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}

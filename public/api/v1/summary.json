@@ -1,0 +1,77 @@
+{
+  "cheapest_by_fuel": {},
+  "generated_at": "2026-10-20T15:07:09.929424+00:00",
+  "locations": [
+    {
+      "area": "Washington (MD only)",
+      "area_average_regular": 4.176,
+      "degraded": false,
+      "name": "Rockville, MD",
+      "regular": null,
+      "slug": "rockville-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Washington (MD only)",
+      "area_average_regular": 4.176,
+      "degraded": false,
+      "name": "Silver Spring, MD",
+      "regular": null,
+      "slug": "silver-spring-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Washington (MD only)",
+      "area_average_regular": 4.176,
+      "degraded": false,
+      "name": "Bethesda, MD",
+      "regular": null,
+      "slug": "bethesda-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Columbia, MD",
+      "regular": null,
+      "slug": "columbia-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Baltimore, MD",
+      "regular": null,
+      "slug": "baltimore-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Annapolis",
+      "area_average_regular": 4.074,
+      "degraded": false,
+      "name": "Annapolis, MD",
+      "regular": null,
+      "slug": "annapolis-md",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Frederick",
+      "area_average_regular": 4.097,
+      "degraded": false,
+      "name": "Frederick, MD",
+      "regular": null,
+      "slug": "frederick-md",
+      "stale": false,
+      "station_prices": false
+    }
+  ],
+  "schema_version": "1"
+}

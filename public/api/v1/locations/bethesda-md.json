@@ -1,0 +1,653 @@
+{
+  "benchmark": {
+    "area": "Washington (MD only)",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.486,
+      "midgrade": 4.914,
+      "premium": 5.234,
+      "regular": 4.268
+    },
+    "prices": {
+      "diesel": 6.407,
+      "midgrade": 4.83,
+      "premium": 5.13,
+      "regular": 4.176
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.394,
+      "midgrade": 4.91,
+      "premium": 5.234,
+      "regular": 4.293
+    },
+    "year_ago": {
+      "diesel": 3.707,
+      "midgrade": 3.651,
+      "premium": 4.027,
+      "regular": 3.063
+    },
+    "yesterday": {
+      "diesel": 6.406,
+      "midgrade": 4.855,
+      "premium": 5.143,
+      "regular": 4.197
+    }
+  },
+  "cheapest": {},
+  "count": 25,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:08:29.321733Z",
+  "name": "Bethesda, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Bethesda, Montgomery County, Maryland, United States",
+    "lat": 38.9812726,
+    "lon": -77.1233587,
+    "query": "Bethesda, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 5.0,
+  "schema_version": "1",
+  "slug": "bethesda-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "6729 Goldsboro Road",
+        "line2": null,
+        "postal_code": "20817",
+        "region": "MD"
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.17,
+      "id": "osm:way/335384185",
+      "lat": 38.9691386,
+      "lon": -77.1384982,
+      "name": "Glen Echo Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/335384185"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "7975 Old Georgetown Road",
+        "line2": null,
+        "postal_code": "20814",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.31,
+      "id": "osm:way/751719937",
+      "lat": 38.989133,
+      "lon": -77.1011255,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/751719937"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 1.31,
+      "id": "osm:node/479610913",
+      "lat": 38.9782024,
+      "lon": -77.0991976,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/479610913"
+    },
+    {
+      "address": {
+        "city": "Chevy Chase",
+        "country": null,
+        "line1": "4972 Bradley Boulevard",
+        "line2": null,
+        "postal_code": "20815",
+        "region": "MD"
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 1.36,
+      "id": "osm:way/117424675",
+      "lat": 38.9776823,
+      "lon": -77.0984557,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/117424675"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5201 River Road",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.52,
+      "id": "osm:way/367183670",
+      "lat": 38.9652844,
+      "lon": -77.1039713,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/367183670"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5151 River Road",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 1.58,
+      "id": "osm:way/367183698",
+      "lat": 38.9646905,
+      "lon": -77.1030607,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/367183698"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5335 Westbard Avenue",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 1.59,
+      "id": "osm:node/3665431969",
+      "lat": 38.9626726,
+      "lon": -77.105993,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3665431969"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5143 River Road",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 1.6,
+      "id": "osm:way/944505990",
+      "lat": 38.9644821,
+      "lon": -77.1027911,
+      "name": "River Road Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/944505990"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "8240 Wisconsin Avenue",
+        "line2": null,
+        "postal_code": "20814",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.65,
+      "id": "osm:node/461849279",
+      "lat": 38.9924832,
+      "lon": -77.0962555,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/461849279"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5110 River Road",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.68,
+      "id": "osm:node/3330129188",
+      "lat": 38.9634689,
+      "lon": -77.1020903,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3330129188"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "5054 River Road",
+        "line2": null,
+        "postal_code": "20816",
+        "region": "MD"
+      },
+      "brand": "Mobil",
+      "cash_prices": {},
+      "distance_mi": 1.72,
+      "id": "osm:node/3330130533",
+      "lat": 38.9631273,
+      "lon": -77.1015569,
+      "name": "Mobil",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3330130533"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "8720 Gunnell Road",
+        "line2": null,
+        "postal_code": "20889",
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 2.05,
+      "id": "osm:way/1011330675",
+      "lat": 38.9987079,
+      "lon": -77.0923618,
+      "name": "Mini Mart",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1011330675"
+    },
+    {
+      "address": {
+        "city": "Chevy Chase",
+        "country": null,
+        "line1": "8500 Connecticut Avenue",
+        "line2": null,
+        "postal_code": "20815",
+        "region": "MD"
+      },
+      "brand": "Giant",
+      "cash_prices": {},
+      "distance_mi": 2.63,
+      "id": "osm:node/3368508781",
+      "lat": 38.9947205,
+      "lon": -77.0776194,
+      "name": "Giant",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3368508781"
+    },
+    {
+      "address": {
+        "city": "Chevy Chase",
+        "country": null,
+        "line1": "8550 Connecticut Avenue",
+        "line2": null,
+        "postal_code": "20815",
+        "region": "MD"
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 2.65,
+      "id": "osm:way/42461878",
+      "lat": 38.9958225,
+      "lon": -77.0776184,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/42461878"
+    },
+    {
+      "address": {
+        "city": "Chevy Chase",
+        "country": null,
+        "line1": "8505 Connecticut Avenue",
+        "line2": null,
+        "postal_code": "20815",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 2.67,
+      "id": "osm:way/112432464",
+      "lat": 38.9949183,
+      "lon": -77.0767872,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/112432464"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.71,
+      "id": "osm:way/985908154",
+      "lat": 38.9426492,
+      "lon": -77.1149881,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/985908154"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "4861 Massachusetts Avenue Northwest",
+        "line2": null,
+        "postal_code": "20016",
+        "region": "DC"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.84,
+      "id": "osm:node/841433566",
+      "lat": 38.9459399,
+      "lon": -77.0964358,
+      "name": "Spring Valley Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/841433566"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "5521 Connecticut Avenue Northwest",
+        "line2": null,
+        "postal_code": "20015",
+        "region": "DC"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.89,
+      "id": "osm:node/841462613",
+      "lat": 38.9637502,
+      "lon": -77.0745209,
+      "name": "Circle Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/841462613"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "4900 Wisconsin Avenue Northwest",
+        "line2": null,
+        "postal_code": null,
+        "region": "DC"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.91,
+      "id": "osm:node/693125244",
+      "lat": 38.9535103,
+      "lon": -77.0825329,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/693125244"
+    },
+    {
+      "address": {
+        "city": "Mclean",
+        "country": "US",
+        "line1": "801 Dolley Madison Boulevard",
+        "line2": null,
+        "postal_code": "22101",
+        "region": "VA"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.94,
+      "id": "osm:node/10234930490",
+      "lat": 38.939996,
+      "lon": -77.1364123,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/10234930490"
+    },
+    {
+      "address": {
+        "city": "Bethesda",
+        "country": null,
+        "line1": "10335 Old Georgetown Road",
+        "line2": null,
+        "postal_code": "20814",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 3.09,
+      "id": "osm:node/551089728",
+      "lat": 39.0259019,
+      "lon": -77.125474,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/551089728"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 3.21,
+      "id": "osm:way/257844473",
+      "lat": 39.0230441,
+      "lon": -77.149456,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/257844473"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "5030 Connecticut Avenue Northwest",
+        "line2": null,
+        "postal_code": "20008",
+        "region": "DC"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 3.36,
+      "id": "osm:way/66974746",
+      "lat": 38.9554634,
+      "lon": -77.0703803,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/66974746"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "5001 Connecticut Avenue Northwest",
+        "line2": null,
+        "postal_code": "20008",
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 3.42,
+      "id": "osm:node/841462619",
+      "lat": 38.9549958,
+      "lon": -77.0694724,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/841462619"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "4940 Connecticut Avenue Northwest",
+        "line2": null,
+        "postal_code": "20008",
+        "region": "DC"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 3.42,
+      "id": "osm:way/48208222",
+      "lat": 38.9544862,
+      "lon": -77.0698611,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/48208222"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}

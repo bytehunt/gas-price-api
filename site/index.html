@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gas Prices</title>
+    <style>
+      :root {
+        --bg: #fbfbf9;
+        --panel: #fff;
+        --ink: #1a1a18;
+        --muted: #6b6b66;
+        --line: #e3e3de;
+        --good: #1a7f4b;
+        --warn: #9a6400;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --bg: #15151a;
+          --panel: #1e1e24;
+          --ink: #ececea;
+          --muted: #9a9a96;
+          --line: #32323a;
+          --good: #52c98a;
+          --warn: #e0ad4a;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 32px 16px 64px;
+        background: var(--bg);
+        color: var(--ink);
+        font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      .wrap { max-width: 1000px; margin: 0 auto; }
+      h1 { font-size: 1.5rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+      .sub { color: var(--muted); font-size: 0.875rem; margin-bottom: 28px; }
+      .cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 14px 16px;
+      }
+      .card h2 { font-size: 0.9rem; margin: 0 0 2px; font-weight: 600; }
+      .card .meta { color: var(--muted); font-size: 0.78rem; }
+      .price { font-size: 1.6rem; font-weight: 650; font-variant-numeric: tabular-nums; margin: 8px 0 2px; }
+      .price.good { color: var(--good); }
+      .flag { color: var(--warn); font-size: 0.78rem; }
+      table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.875rem; }
+      th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); }
+      th { font-weight: 600; color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+      td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+      details { margin-top: 24px; }
+      summary { cursor: pointer; font-weight: 600; padding: 8px 0; }
+      a { color: inherit; }
+      code { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 0.85em; }
+      .endpoints { color: var(--muted); font-size: 0.85rem; line-height: 2; }
+      .err { color: #c0392b; }
+      .avg { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 id="title">Gas Prices</h1>
+      <div class="sub" id="sub">Loading…</div>
+      <div class="cards" id="cards"></div>
+      <div id="detail"></div>
+      <details>
+        <summary>API endpoints</summary>
+        <div class="endpoints">
+          <code>api/v1/index.json</code> — every tracked location with its cheapest prices<br />
+          <code>api/v1/summary.json</code> — cheapest per fuel across all locations<br />
+          <code>api/v1/locations/&lt;slug&gt;.json</code> — full station list for one location
+        </div>
+      </details>
+    </div>
+
+    <script>
+      const money = (v) => (v == null ? "—" : "$" + Number(v).toFixed(2));
+      const when = (iso) => {
+        if (!iso) return "unknown";
+        const mins = (Date.now() - new Date(iso)) / 60000;
+        if (mins < 60) return Math.round(mins) + "m ago";
+        if (mins < 2880) return Math.round(mins / 60) + "h ago";
+        return Math.round(mins / 1440) + "d ago";
+      };
+
+      function status(loc) {
+        if (loc.stale) return '<span class="flag">stale</span>';
+        if (loc.degraded) return '<span class="flag">no price data</span>';
+        return "";
+      }
+
+      // A location shows a real station price when one exists, and otherwise the
+      // area average. The two must never be presented as the same thing.
+      function headline(loc) {
+        const station = loc.cheapest?.regular;
+        if (station?.price != null) {
+          return { price: station.price, label: `cheapest regular · ${station.station_name}` };
+        }
+        const avg = loc.benchmark?.prices?.regular;
+        if (avg != null) {
+          return { price: avg, label: `${loc.benchmark.area} average regular`, isAvg: true };
+        }
+        return { price: null, label: "regular" };
+      }
+
+      function delta(loc) {
+        const b = loc.benchmark;
+        if (!b?.prices?.regular || !b?.week_ago?.regular) return "";
+        const d = b.prices.regular - b.week_ago.regular;
+        if (Math.abs(d) < 0.005) return " · flat this week";
+        const dir = d < 0 ? "▼" : "▲";
+        return ` · ${dir}${Math.abs(d).toFixed(2)} vs. last week`;
+      }
+
+      function renderCards(index) {
+        document.getElementById("title").textContent = index.title || "Gas Prices";
+        document.getElementById("sub").textContent =
+          `${index.location_count} locations · updated ${when(index.generated_at)}` +
+          (index.degraded_count ? ` · ${index.degraded_count} without prices` : "");
+
+        const prices = index.locations.map((l) => headline(l).price).filter((p) => p != null);
+        const best = prices.length ? Math.min(...prices) : null;
+
+        document.getElementById("cards").innerHTML = index.locations
+          .map((loc) => {
+            const h = headline(loc);
+            const isBest = h.price != null && best != null && h.price === best;
+            return `<div class="card">
+              <h2>${loc.name}</h2>
+              <div class="meta">${loc.count} stations within ${loc.radius_mi} mi</div>
+              <div class="price ${isBest ? "good" : ""}">${money(h.price)}</div>
+              <div class="meta">${h.label}${delta(loc)} ${status(loc)}</div>
+            </div>`;
+          })
+          .join("");
+      }
+
+      function renderTable(index) {
+        const fuels = ["regular", "midgrade", "premium", "diesel"];
+        const anyStationPrices = index.locations.some((l) => l.station_prices);
+
+        const cell = (loc, f) => {
+          const station = loc.cheapest?.[f]?.price;
+          if (station != null) return money(station);
+          const avg = loc.benchmark?.prices?.[f];
+          return avg != null ? `<span class="avg">${money(avg)}</span>` : "—";
+        };
+
+        const rows = index.locations
+          .map(
+            (loc) => `<tr>
+              <td><a href="${loc.url}">${loc.name}</a></td>
+              ${fuels.map((f) => `<td class="num">${cell(loc, f)}</td>`).join("")}
+              <td class="num">${when(loc.generated_at)}</td>
+            </tr>`
+          )
+          .join("");
+
+        const note = anyStationPrices
+          ? "Cheapest station per fuel where per-station prices are available; grey figures are area averages."
+          : "Figures are today's AAA area averages per grade, not individual station prices — no free source of US per-station prices exists. The per-location files list every nearby station.";
+
+        document.getElementById("detail").innerHTML = `<table>
+          <thead><tr><th>Location</th>${fuels
+            .map((f) => `<th class="num">${f}</th>`)
+            .join("")}<th class="num">Updated</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <div class="sub" style="margin-top:10px">${note}</div>`;
+      }
+
+      fetch("api/v1/index.json", { cache: "no-store" })
+        .then((r) => {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then((index) => {
+          renderCards(index);
+          renderTable(index);
+        })
+        .catch((err) => {
+          document.getElementById("sub").innerHTML =
+            `<span class="err">Could not load api/v1/index.json (${err.message}). Run <code>gasprice collect</code>.</span>`;
+        });
+    </script>
+  </body>
+</html>

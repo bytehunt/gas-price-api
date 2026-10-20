@@ -1,0 +1,653 @@
+{
+  "benchmark": {
+    "area": "Washington (MD only)",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.486,
+      "midgrade": 4.914,
+      "premium": 5.234,
+      "regular": 4.268
+    },
+    "prices": {
+      "diesel": 6.407,
+      "midgrade": 4.83,
+      "premium": 5.13,
+      "regular": 4.176
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.394,
+      "midgrade": 4.91,
+      "premium": 5.234,
+      "regular": 4.293
+    },
+    "year_ago": {
+      "diesel": 3.707,
+      "midgrade": 3.651,
+      "premium": 4.027,
+      "regular": 3.063
+    },
+    "yesterday": {
+      "diesel": 6.406,
+      "midgrade": 4.855,
+      "premium": 5.143,
+      "regular": 4.197
+    }
+  },
+  "cheapest": {},
+  "count": 25,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T15:07:46.020398Z",
+  "name": "Silver Spring, MD",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "20910, Montgomery County, Maryland, United States",
+    "lat": 38.9972867,
+    "lon": -77.0271235,
+    "query": "20910",
+    "region": "Maryland"
+  },
+  "radius_mi": 5.0,
+  "schema_version": "1",
+  "slug": "silver-spring-md",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "8600 Georgia Avenue",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Amoco",
+      "cash_prices": {},
+      "distance_mi": 0.12,
+      "id": "osm:node/3390462084",
+      "lat": 38.9960314,
+      "lon": -77.0287445,
+      "name": "Amoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3390462084"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "8333 Fenton Street",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 0.26,
+      "id": "osm:node/1860794283",
+      "lat": 38.9944389,
+      "lon": -77.0238668,
+      "name": "Fenton Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1860794283"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "8301 Fenton Street",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 0.33,
+      "id": "osm:node/565295469",
+      "lat": 38.9931627,
+      "lon": -77.023901,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/565295469"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "8384 Colesville Road",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 0.4,
+      "id": "osm:way/38796086",
+      "lat": 38.9931655,
+      "lon": -77.0324136,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/38796086"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "7-Eleven",
+      "cash_prices": {},
+      "distance_mi": 0.77,
+      "id": "osm:way/79437843",
+      "lat": 38.986193,
+      "lon": -77.0272302,
+      "name": "7-Eleven",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/79437843"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.01,
+      "id": "osm:way/254069566",
+      "lat": 38.9934451,
+      "lon": -77.0089397,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/254069566"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "9331 Georgia Avenue",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.03,
+      "id": "osm:way/89359198",
+      "lat": 39.00847,
+      "lon": -77.0397739,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/89359198"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "9336 Georgia Avenue",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.04,
+      "id": "osm:way/370361091",
+      "lat": 39.0082776,
+      "lon": -77.0404475,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/370361091"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.05,
+      "id": "osm:node/757589863",
+      "lat": 38.9821736,
+      "lon": -77.0263491,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/757589863"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "9475 Georgia Avenue",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.14,
+      "id": "osm:way/89364159",
+      "lat": 39.0100623,
+      "lon": -77.0404779,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/89364159"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "9501 Georgia Avenue",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 1.17,
+      "id": "osm:way/89364163",
+      "lat": 39.0106386,
+      "lon": -77.0406694,
+      "name": "Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/89364163"
+    },
+    {
+      "address": {
+        "city": "Washington",
+        "country": null,
+        "line1": "7401 Georgia Avenue Northwest",
+        "line2": null,
+        "postal_code": "20012",
+        "region": "DC"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.22,
+      "id": "osm:node/1363217858",
+      "lat": 38.9796869,
+      "lon": -77.0260354,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1363217858"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.35,
+      "id": "osm:node/2423579732",
+      "lat": 38.9981382,
+      "lon": -77.0019633,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/2423579732"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.6,
+      "id": "osm:node/3333263619",
+      "lat": 38.9749971,
+      "lon": -77.018853,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3333263619"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "701 University Boulevard EaStreet",
+        "line2": null,
+        "postal_code": "20903",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.7,
+      "id": "osm:way/380122366",
+      "lat": 38.9990915,
+      "lon": -76.9955284,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/380122366"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "650 University Boulevard East",
+        "line2": null,
+        "postal_code": "20901",
+        "region": "MD"
+      },
+      "brand": "7-Eleven",
+      "cash_prices": {},
+      "distance_mi": 1.72,
+      "id": "osm:way/512112688",
+      "lat": 39.0001953,
+      "lon": -76.9952606,
+      "name": "7-Eleven",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/512112688"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "100 University Boulevard West",
+        "line2": null,
+        "postal_code": "20901",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.73,
+      "id": "osm:node/512958166",
+      "lat": 39.0200595,
+      "lon": -77.0139527,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/512958166"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.75,
+      "id": "osm:node/512957645",
+      "lat": 39.0206412,
+      "lon": -77.0145068,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/512957645"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Oceanic",
+      "cash_prices": {},
+      "distance_mi": 1.8,
+      "id": "osm:node/512954010",
+      "lat": 39.0211373,
+      "lon": -77.0136706,
+      "name": "Oceanic",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/512954010"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "10144 Colesville Road",
+        "line2": null,
+        "postal_code": "20901",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 1.85,
+      "id": "osm:node/530021915",
+      "lat": 39.0214317,
+      "lon": -77.012329,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/530021915"
+    },
+    {
+      "address": {
+        "city": "Takoma Park",
+        "country": null,
+        "line1": "8316 Carroll Avenue",
+        "line2": null,
+        "postal_code": "20912",
+        "region": "MD"
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.89,
+      "id": "osm:way/265147218",
+      "lat": 38.9931666,
+      "lon": -76.9924088,
+      "name": "Falcon Fuel",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/265147218"
+    },
+    {
+      "address": {
+        "city": "Silver Spring",
+        "country": null,
+        "line1": "2601 Forest Glen Road",
+        "line2": null,
+        "postal_code": "20910",
+        "region": "MD"
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.91,
+      "id": "osm:way/131703619",
+      "lat": 39.0148226,
+      "lon": -77.05463,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/131703619"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.94,
+      "id": "osm:way/292847893",
+      "lat": 38.9995422,
+      "lon": -76.9910353,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/292847893"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.02,
+      "id": "osm:node/1360050503",
+      "lat": 38.968002,
+      "lon": -77.0271067,
+      "name": "J & K Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1360050503"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "6401 Georgia Avenue Northwest",
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 2.06,
+      "id": "osm:way/91898654",
+      "lat": 38.9675316,
+      "lon": -77.0268585,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/91898654"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}
