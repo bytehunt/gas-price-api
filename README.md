@@ -126,9 +126,12 @@ data). A worse refresh never overwrites a good one.
 
 To enable:
 
-1. **Settings → Pages → Source: GitHub Actions**
+1. **Settings → Pages → Source: GitHub Actions** — not "Branch". Branch mode
+   only publishes the repo root or `/docs`, so it cannot serve `public/`.
 2. **Settings → Actions → General → Workflow permissions: Read and write**
 3. Run **Update prices** once manually to seed the site.
+
+The site then lives at <https://bytehunt.github.io/gas-price-api/>.
 
 Because `public/` is committed each run, your git history doubles as a price
 history: `git log -p public/api/v1/locations/<slug>.json`.

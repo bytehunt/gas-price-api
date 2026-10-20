@@ -91,6 +91,12 @@ jobs:
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
+      # Requires Settings -> Pages -> Source: "GitHub Actions". With Source set
+      # to "Branch" this step fails, and branch mode cannot serve this repo
+      # anyway: it only publishes the root or /docs, never public/.
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
