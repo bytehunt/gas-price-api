@@ -14,9 +14,385 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-10-20T15:14:21.545849+00:00",
-  "location_count": 7,
+  "generated_at": "2026-10-20T17:50:02.639536+00:00",
+  "location_count": 11,
   "locations": [
+    {
+      "benchmark": {
+        "area": "Baltimore",
+        "as_of": "2026-10-20T00:00:00Z",
+        "month_ago": {
+          "diesel": 6.483,
+          "midgrade": 4.805,
+          "premium": 5.125,
+          "regular": 4.197
+        },
+        "prices": {
+          "diesel": 6.34,
+          "midgrade": 4.616,
+          "premium": 4.932,
+          "regular": 4.054
+        },
+        "scope": "metro",
+        "source": "aaa",
+        "url": "https://gasprices.aaa.com/?state=MD",
+        "week_ago": {
+          "diesel": 6.348,
+          "midgrade": 4.796,
+          "premium": 5.1,
+          "regular": 4.254
+        },
+        "year_ago": {
+          "diesel": 3.6,
+          "midgrade": 3.535,
+          "premium": 3.838,
+          "regular": 2.986
+        },
+        "yesterday": {
+          "diesel": 6.335,
+          "midgrade": 4.655,
+          "premium": 4.96,
+          "regular": 4.089
+        }
+      },
+      "cheapest": {},
+      "count": 60,
+      "degraded": false,
+      "fuels": [
+        "regular",
+        "midgrade",
+        "premium",
+        "diesel"
+      ],
+      "generated_at": "2026-10-20T17:50:02.640405Z",
+      "name": "Mulberry St (Downtown Baltimore)",
+      "place": {
+        "country": "US",
+        "display_name": "427, West Mulberry Street, Chinatown, Downtown, Baltimore, Maryland, 21201, United States",
+        "lat": 39.293778,
+        "lon": -76.6221733,
+        "query": "427 W Mulberry St, Baltimore, MD",
+        "region": "Maryland"
+      },
+      "radius_mi": 3.0,
+      "slug": "mulberry-st-baltimore",
+      "stale": false,
+      "station_prices": false,
+      "stats": {
+        "diesel": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "midgrade": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "premium": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "regular": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        }
+      },
+      "trend": null,
+      "url": "api/v1/locations/mulberry-st-baltimore.json"
+    },
+    {
+      "benchmark": {
+        "area": "Baltimore",
+        "as_of": "2026-10-20T00:00:00Z",
+        "month_ago": {
+          "diesel": 6.483,
+          "midgrade": 4.805,
+          "premium": 5.125,
+          "regular": 4.197
+        },
+        "prices": {
+          "diesel": 6.34,
+          "midgrade": 4.616,
+          "premium": 4.932,
+          "regular": 4.054
+        },
+        "scope": "metro",
+        "source": "aaa",
+        "url": "https://gasprices.aaa.com/?state=MD",
+        "week_ago": {
+          "diesel": 6.348,
+          "midgrade": 4.796,
+          "premium": 5.1,
+          "regular": 4.254
+        },
+        "year_ago": {
+          "diesel": 3.6,
+          "midgrade": 3.535,
+          "premium": 3.838,
+          "regular": 2.986
+        },
+        "yesterday": {
+          "diesel": 6.335,
+          "midgrade": 4.655,
+          "premium": 4.96,
+          "regular": 4.089
+        }
+      },
+      "cheapest": {},
+      "count": 39,
+      "degraded": false,
+      "fuels": [
+        "regular",
+        "midgrade",
+        "premium",
+        "diesel"
+      ],
+      "generated_at": "2026-10-20T17:50:38.813067Z",
+      "name": "Compass Rd (Middle River)",
+      "place": {
+        "country": "US",
+        "display_name": "Sunoco, 1, Compass Road, Victory Villa, Middle River, Baltimore County, Maryland, 21220, United States",
+        "lat": 39.3355175,
+        "lon": -76.4570084,
+        "query": "1 Compass Rd, Middle River, MD",
+        "region": "Maryland"
+      },
+      "radius_mi": 3.0,
+      "slug": "compass-rd-middle-river",
+      "stale": false,
+      "station_prices": false,
+      "stats": {
+        "diesel": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "midgrade": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "premium": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "regular": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        }
+      },
+      "trend": null,
+      "url": "api/v1/locations/compass-rd-middle-river.json"
+    },
+    {
+      "benchmark": {
+        "area": "Baltimore",
+        "as_of": "2026-10-20T00:00:00Z",
+        "month_ago": {
+          "diesel": 6.483,
+          "midgrade": 4.805,
+          "premium": 5.125,
+          "regular": 4.197
+        },
+        "prices": {
+          "diesel": 6.34,
+          "midgrade": 4.616,
+          "premium": 4.932,
+          "regular": 4.054
+        },
+        "scope": "metro",
+        "source": "aaa",
+        "url": "https://gasprices.aaa.com/?state=MD",
+        "week_ago": {
+          "diesel": 6.348,
+          "midgrade": 4.796,
+          "premium": 5.1,
+          "regular": 4.254
+        },
+        "year_ago": {
+          "diesel": 3.6,
+          "midgrade": 3.535,
+          "premium": 3.838,
+          "regular": 2.986
+        },
+        "yesterday": {
+          "diesel": 6.335,
+          "midgrade": 4.655,
+          "premium": 4.96,
+          "regular": 4.089
+        }
+      },
+      "cheapest": {},
+      "count": 65,
+      "degraded": false,
+      "fuels": [
+        "regular",
+        "midgrade",
+        "premium",
+        "diesel"
+      ],
+      "generated_at": "2026-10-20T17:51:24.064158Z",
+      "name": "Pulaski Hwy (Rosedale)",
+      "place": {
+        "country": "US",
+        "display_name": "McDonald's, 7500, Pulaski Highway, Maryland Manor, Baltimore, Baltimore County, Maryland, 21237, United States",
+        "lat": 39.3130033,
+        "lon": -76.5255357,
+        "query": "7500 Pulaski Hwy, Baltimore, MD",
+        "region": "Maryland"
+      },
+      "radius_mi": 3.0,
+      "slug": "pulaski-hwy-rosedale",
+      "stale": false,
+      "station_prices": false,
+      "stats": {
+        "diesel": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "midgrade": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "premium": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "regular": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        }
+      },
+      "trend": null,
+      "url": "api/v1/locations/pulaski-hwy-rosedale.json"
+    },
+    {
+      "benchmark": {
+        "area": "Baltimore",
+        "as_of": "2026-10-20T00:00:00Z",
+        "month_ago": {
+          "diesel": 6.483,
+          "midgrade": 4.805,
+          "premium": 5.125,
+          "regular": 4.197
+        },
+        "prices": {
+          "diesel": 6.34,
+          "midgrade": 4.616,
+          "premium": 4.932,
+          "regular": 4.054
+        },
+        "scope": "metro",
+        "source": "aaa",
+        "url": "https://gasprices.aaa.com/?state=MD",
+        "week_ago": {
+          "diesel": 6.348,
+          "midgrade": 4.796,
+          "premium": 5.1,
+          "regular": 4.254
+        },
+        "year_ago": {
+          "diesel": 3.6,
+          "midgrade": 3.535,
+          "premium": 3.838,
+          "regular": 2.986
+        },
+        "yesterday": {
+          "diesel": 6.335,
+          "midgrade": 4.655,
+          "premium": 4.96,
+          "regular": 4.089
+        }
+      },
+      "cheapest": {},
+      "count": 51,
+      "degraded": false,
+      "fuels": [
+        "regular",
+        "midgrade",
+        "premium",
+        "diesel"
+      ],
+      "generated_at": "2026-10-20T17:51:56.290066Z",
+      "name": "Belair Rd (Hamilton)",
+      "place": {
+        "country": "US",
+        "display_name": "Carroll Motor Fuels, 6019, Belair Road, Cedmont, Hamilton, Baltimore, Maryland, 21206, United States",
+        "lat": 39.3480225,
+        "lon": -76.5379948,
+        "query": "6019 Belair Rd, Baltimore, MD",
+        "region": "Maryland"
+      },
+      "radius_mi": 3.0,
+      "slug": "belair-rd-baltimore",
+      "stale": false,
+      "station_prices": false,
+      "stats": {
+        "diesel": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "midgrade": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "premium": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        },
+        "regular": {
+          "count": 0,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null
+        }
+      },
+      "trend": null,
+      "url": "api/v1/locations/belair-rd-baltimore.json"
+    },
     {
       "benchmark": {
         "area": "Washington (MD only)",
@@ -64,7 +440,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:14:21.547397Z",
+      "generated_at": "2026-10-20T17:53:17.677698Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -158,7 +534,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:15:08.081334Z",
+      "generated_at": "2026-10-20T17:53:51.712238Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
@@ -252,7 +628,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:15:42.646711Z",
+      "generated_at": "2026-10-20T17:54:34.516452Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -346,7 +722,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:16:22.985217Z",
+      "generated_at": "2026-10-20T17:55:03.737245Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -440,7 +816,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:17:04.552361Z",
+      "generated_at": "2026-10-20T17:55:53.210550Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -534,7 +910,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:17:45.803275Z",
+      "generated_at": "2026-10-20T17:56:31.854382Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -628,7 +1004,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-20T15:18:25.087308Z",
+      "generated_at": "2026-10-20T17:57:07.939894Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",

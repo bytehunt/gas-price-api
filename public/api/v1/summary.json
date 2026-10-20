@@ -18,24 +18,64 @@
     },
     "premium": {
       "area": "Baltimore",
-      "location": "Columbia, MD",
-      "location_slug": "columbia-md",
+      "location": "Mulberry St (Downtown Baltimore)",
+      "location_slug": "mulberry-st-baltimore",
       "price": 4.932,
       "scope": "metro",
       "source": "aaa"
     },
     "regular": {
       "area": "Baltimore",
-      "location": "Columbia, MD",
-      "location_slug": "columbia-md",
+      "location": "Mulberry St (Downtown Baltimore)",
+      "location_slug": "mulberry-st-baltimore",
       "price": 4.054,
       "scope": "metro",
       "source": "aaa"
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-20T15:14:21.545849+00:00",
+  "generated_at": "2026-10-20T17:50:02.639536+00:00",
   "locations": [
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Mulberry St (Downtown Baltimore)",
+      "regular": null,
+      "slug": "mulberry-st-baltimore",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Compass Rd (Middle River)",
+      "regular": null,
+      "slug": "compass-rd-middle-river",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Pulaski Hwy (Rosedale)",
+      "regular": null,
+      "slug": "pulaski-hwy-rosedale",
+      "stale": false,
+      "station_prices": false
+    },
+    {
+      "area": "Baltimore",
+      "area_average_regular": 4.054,
+      "degraded": false,
+      "name": "Belair Rd (Hamilton)",
+      "regular": null,
+      "slug": "belair-rd-baltimore",
+      "stale": false,
+      "station_prices": false
+    },
     {
       "area": "Washington (MD only)",
       "area_average_regular": 4.176,

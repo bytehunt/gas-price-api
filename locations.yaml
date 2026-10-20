@@ -31,6 +31,49 @@ defaults:
     - diesel
 
 locations:
+  # ---------------------------------------------------------------------------
+  # Owned sites — competitive watch.
+  #
+  # Radius is 3 miles on all four. That is not arbitrary: at 2 miles, Middle
+  # River has only 3 competitors to its north-west and Belair Rd only 2 to its
+  # south-east, while 3 miles clears 4+ in every compass quadrant at every site.
+  # max_stations is 70 because a 3-mile ring around Pulaski Hwy holds 65.
+  #
+  # Re-check the spread after editing a radius:
+  #   gasprice fetch "<query>" -r 3 --json | jq '.count'
+  # ---------------------------------------------------------------------------
+  - name: Mulberry St (Downtown Baltimore)
+    slug: mulberry-st-baltimore
+    query: "427 W Mulberry St, Baltimore, MD"
+    radius_miles: 3
+    max_stations: 70
+    aaa_metro: Baltimore
+
+  - name: Compass Rd (Middle River)
+    slug: compass-rd-middle-river
+    query: "1 Compass Rd, Middle River, MD"
+    radius_miles: 3
+    max_stations: 70
+    aaa_metro: Baltimore
+
+  - name: Pulaski Hwy (Rosedale)
+    slug: pulaski-hwy-rosedale
+    query: "7500 Pulaski Hwy, Baltimore, MD"
+    radius_miles: 3
+    max_stations: 70
+    aaa_metro: Baltimore
+
+  - name: Belair Rd (Hamilton)
+    slug: belair-rd-baltimore
+    query: "6019 Belair Rd, Baltimore, MD"
+    radius_miles: 3
+    max_stations: 70
+    aaa_metro: Baltimore
+
+  # ---------------------------------------------------------------------------
+  # Wider Maryland metros. These were starter examples, not your sites — delete
+  # any you don't want; each one adds an Overpass round trip to every run.
+  # ---------------------------------------------------------------------------
   - name: Rockville, MD
     slug: rockville-md
     query: "Rockville, MD"

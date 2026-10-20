@@ -1,0 +1,961 @@
+{
+  "benchmark": {
+    "area": "Baltimore",
+    "as_of": "2026-10-20T00:00:00Z",
+    "month_ago": {
+      "diesel": 6.483,
+      "midgrade": 4.805,
+      "premium": 5.125,
+      "regular": 4.197
+    },
+    "prices": {
+      "diesel": 6.34,
+      "midgrade": 4.616,
+      "premium": 4.932,
+      "regular": 4.054
+    },
+    "scope": "metro",
+    "source": "aaa",
+    "url": "https://gasprices.aaa.com/?state=MD",
+    "week_ago": {
+      "diesel": 6.348,
+      "midgrade": 4.796,
+      "premium": 5.1,
+      "regular": 4.254
+    },
+    "year_ago": {
+      "diesel": 3.6,
+      "midgrade": 3.535,
+      "premium": 3.838,
+      "regular": 2.986
+    },
+    "yesterday": {
+      "diesel": 6.335,
+      "midgrade": 4.655,
+      "premium": 4.96,
+      "regular": 4.089
+    }
+  },
+  "cheapest": {},
+  "count": 39,
+  "degraded": false,
+  "fuels": [
+    "regular",
+    "midgrade",
+    "premium",
+    "diesel"
+  ],
+  "generated_at": "2026-10-20T17:50:38.813067Z",
+  "name": "Compass Rd (Middle River)",
+  "notes": [
+    "no per-station prices for this area; station locations plus area averages"
+  ],
+  "place": {
+    "country": "US",
+    "display_name": "Sunoco, 1, Compass Road, Victory Villa, Middle River, Baltimore County, Maryland, 21220, United States",
+    "lat": 39.3355175,
+    "lon": -76.4570084,
+    "query": "1 Compass Rd, Middle River, MD",
+    "region": "Maryland"
+  },
+  "radius_mi": 3.0,
+  "schema_version": "1",
+  "slug": "compass-rd-middle-river",
+  "sources": [
+    "overpass",
+    "aaa"
+  ],
+  "stale": false,
+  "station_prices": false,
+  "stations": [
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 0.57,
+      "id": "osm:node/966497024",
+      "lat": 39.3357036,
+      "lon": -76.4463061,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/966497024"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 0.69,
+      "id": "osm:node/966497025",
+      "lat": 39.3435605,
+      "lon": -76.449407,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/966497025"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 1.19,
+      "id": "osm:node/10271430233",
+      "lat": 39.3526375,
+      "lon": -76.4539084,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/10271430233"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.19,
+      "id": "osm:way/938856483",
+      "lat": 39.3527564,
+      "lon": -76.4553035,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/938856483"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.27,
+      "id": "osm:way/298966769",
+      "lat": 39.3335342,
+      "lon": -76.4334033,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298966769"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Wawa",
+      "cash_prices": {},
+      "distance_mi": 1.33,
+      "id": "osm:way/247010104",
+      "lat": 39.33619,
+      "lon": -76.4819207,
+      "name": "Wawa",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/247010104"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 1.35,
+      "id": "osm:way/247010118",
+      "lat": 39.3371608,
+      "lon": -76.4821352,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/247010118"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.53,
+      "id": "osm:way/273941268",
+      "lat": 39.3137806,
+      "lon": -76.4624264,
+      "name": "Music Petroleum",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/273941268"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.58,
+      "id": "osm:way/298963954",
+      "lat": 39.3131634,
+      "lon": -76.463321,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298963954"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 1.61,
+      "id": "osm:node/919067066",
+      "lat": 39.3131737,
+      "lon": -76.4483998,
+      "name": "Carroll Independent Fuel",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/919067066"
+    },
+    {
+      "address": {
+        "city": "Rosedale",
+        "country": null,
+        "line1": "6410 Petrie Way",
+        "line2": null,
+        "postal_code": "21237",
+        "region": "MD"
+      },
+      "brand": "Sam's Club",
+      "cash_prices": {},
+      "distance_mi": 1.63,
+      "id": "osm:way/247352105",
+      "lat": 39.3340506,
+      "lon": -76.4875001,
+      "name": "Sam's Club",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/247352105"
+    },
+    {
+      "address": {
+        "city": "Essex",
+        "country": null,
+        "line1": "100 Back River Neck Road",
+        "line2": null,
+        "postal_code": "21221",
+        "region": "MD"
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 1.64,
+      "id": "osm:node/919067060",
+      "lat": 39.3125927,
+      "lon": -76.4487914,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/919067060"
+    },
+    {
+      "address": {
+        "city": "Middle River",
+        "country": null,
+        "line1": "9919 Pulaski Highway",
+        "line2": null,
+        "postal_code": "21220",
+        "region": "MD"
+      },
+      "brand": "Costco Gasoline",
+      "cash_prices": {},
+      "distance_mi": 1.71,
+      "id": "osm:node/3026476512",
+      "lat": 39.3589295,
+      "lon": -76.4468203,
+      "name": "Costco Gasoline",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3026476512"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 1.75,
+      "id": "osm:node/12889152898",
+      "lat": 39.3381128,
+      "lon": -76.4895189,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/12889152898"
+    },
+    {
+      "address": {
+        "city": "Essex",
+        "country": null,
+        "line1": "724 Eastern Boulevard",
+        "line2": null,
+        "postal_code": "21221",
+        "region": "MD"
+      },
+      "brand": "Citgo",
+      "cash_prices": {},
+      "distance_mi": 1.78,
+      "id": "osm:way/298933333",
+      "lat": 39.3114094,
+      "lon": -76.4688541,
+      "name": "Citgo",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298933333"
+    },
+    {
+      "address": {
+        "city": "Essex",
+        "country": null,
+        "line1": "511 Mace Avenue",
+        "line2": null,
+        "postal_code": "21221",
+        "region": "MD"
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.8,
+      "id": "osm:way/298928491",
+      "lat": 39.3140879,
+      "lon": -76.4761008,
+      "name": "Baltimore County Vehicle Maintenance - Essex Fuel Center",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298928491"
+    },
+    {
+      "address": {
+        "city": "Essex",
+        "country": null,
+        "line1": "701 Eastern Boulevard",
+        "line2": null,
+        "postal_code": "21221",
+        "region": "MD"
+      },
+      "brand": "Crown",
+      "cash_prices": {},
+      "distance_mi": 1.89,
+      "id": "osm:way/298931055",
+      "lat": 39.3102602,
+      "lon": -76.4704965,
+      "name": "Crown",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298931055"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 1.97,
+      "id": "osm:node/966467278",
+      "lat": 39.3284168,
+      "lon": -76.4213629,
+      "name": "Unnamed fuel station",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/966467278"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.03,
+      "id": "osm:node/2120291748",
+      "lat": 39.3336231,
+      "lon": -76.4949253,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/2120291748"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Wawa",
+      "cash_prices": {},
+      "distance_mi": 2.17,
+      "id": "osm:node/14077782102",
+      "lat": 39.3663061,
+      "lon": -76.4490459,
+      "name": "Wawa",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/14077782102"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.21,
+      "id": "osm:way/298975622",
+      "lat": 39.3057565,
+      "lon": -76.4419178,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298975622"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.23,
+      "id": "osm:way/298961510",
+      "lat": 39.3055648,
+      "lon": -76.4413663,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298961510"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Liberty",
+      "cash_prices": {},
+      "distance_mi": 2.3,
+      "id": "osm:node/2801132258",
+      "lat": 39.3312512,
+      "lon": -76.4996947,
+      "name": "Liberty",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/2801132258"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 2.31,
+      "id": "osm:way/298963137",
+      "lat": 39.3258242,
+      "lon": -76.4984281,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298963137"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Carroll",
+      "cash_prices": {},
+      "distance_mi": 2.39,
+      "id": "osm:node/1296876421",
+      "lat": 39.3063546,
+      "lon": -76.48106,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1296876421"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 2.4,
+      "id": "osm:way/235015347",
+      "lat": 39.3701606,
+      "lon": -76.4536901,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/235015347"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": null,
+      "cash_prices": {},
+      "distance_mi": 2.45,
+      "id": "osm:way/298976761",
+      "lat": 39.3350145,
+      "lon": -76.411226,
+      "name": "Carroll Motor Fuels",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298976761"
+    },
+    {
+      "address": {
+        "city": "Rosedale",
+        "country": null,
+        "line1": "6321 Kenwood Avenue",
+        "line2": null,
+        "postal_code": "21237",
+        "region": "MD"
+      },
+      "brand": "Shell",
+      "cash_prices": {},
+      "distance_mi": 2.59,
+      "id": "osm:node/3320282692",
+      "lat": 39.3381776,
+      "lon": -76.5053126,
+      "name": "Shell",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/3320282692"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "7-Eleven",
+      "cash_prices": {},
+      "distance_mi": 2.69,
+      "id": "osm:node/11328489000",
+      "lat": 39.3494653,
+      "lon": -76.4101051,
+      "name": "7-Eleven",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/11328489000"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.75,
+      "id": "osm:way/513193986",
+      "lat": 39.3375803,
+      "lon": -76.4055719,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/513193986"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.77,
+      "id": "osm:way/746371317",
+      "lat": 39.3741445,
+      "lon": -76.4428368,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/746371317"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.79,
+      "id": "osm:way/298952688",
+      "lat": 39.2950919,
+      "lon": -76.4579902,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298952688"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 2.79,
+      "id": "osm:way/746371319",
+      "lat": 39.3744997,
+      "lon": -76.4433735,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/746371319"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Sheetz",
+      "cash_prices": {},
+      "distance_mi": 2.8,
+      "id": "osm:way/1527325894",
+      "lat": 39.3603966,
+      "lon": -76.4156419,
+      "name": "Sheetz",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/1527325894"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "7-Eleven",
+      "cash_prices": {},
+      "distance_mi": 2.88,
+      "id": "osm:node/1375446590",
+      "lat": 39.375595,
+      "lon": -76.4716914,
+      "name": "7-Eleven",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1375446590"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Exxon",
+      "cash_prices": {},
+      "distance_mi": 2.9,
+      "id": "osm:way/252797330",
+      "lat": 39.3774912,
+      "lon": -76.4595052,
+      "name": "Exxon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/252797330"
+    },
+    {
+      "address": {
+        "city": "Middle River",
+        "country": null,
+        "line1": "Carroll Island Road",
+        "line2": null,
+        "postal_code": "21220",
+        "region": "MD"
+      },
+      "brand": "Marathon",
+      "cash_prices": {},
+      "distance_mi": 2.95,
+      "id": "osm:node/1516566546",
+      "lat": 39.3387541,
+      "lon": -76.401877,
+      "name": "Marathon",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/1516566546"
+    },
+    {
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "Royal Farms",
+      "cash_prices": {},
+      "distance_mi": 3.0,
+      "id": "osm:way/253456786",
+      "lat": 39.3595217,
+      "lon": -76.4102405,
+      "name": "Royal Farms",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/253456786"
+    },
+    {
+      "address": {
+        "city": "Middle River",
+        "country": null,
+        "line1": "1 Compass Road",
+        "line2": null,
+        "postal_code": "21220",
+        "region": "MD"
+      },
+      "brand": "Sunoco",
+      "cash_prices": {},
+      "distance_mi": 0.0,
+      "id": "osm:way/298906639",
+      "lat": 39.3354774,
+      "lon": -76.4570351,
+      "name": "Sunoco",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/way/298906639"
+    }
+  ],
+  "stats": {
+    "diesel": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "midgrade": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "premium": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "regular": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "trend": null
+}
