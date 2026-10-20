@@ -112,7 +112,7 @@ public/
 ```
 
 ```js
-const r = await fetch("https://<user>.github.io/gas-price-api/api/v1/summary.json");
+const r = await fetch("https://bytehunt.github.io/gas-price-api/api/v1/summary.json");
 ```
 
 Each response carries `station_prices` (are these real pump prices?), `degraded`

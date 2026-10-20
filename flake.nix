@@ -55,7 +55,7 @@
             export PATH="$PWD/bin:$PATH"
             export GASPRICE_CACHE_DIR="$PWD/.cache"
             # Nominatim and Overpass both ask for a contactable User-Agent.
-            export GASPRICE_USER_AGENT="''${GASPRICE_USER_AGENT:-gas-price-api/0.1 (+https://github.com)}"
+            export GASPRICE_USER_AGENT="''${GASPRICE_USER_AGENT:-gas-price-api/0.1 (+https://github.com/bytehunt/gas-price-api)}"
             [ -f .env.local ] && set -a && . ./.env.local && set +a
 
             # Only greet a human; `nix develop --command ...` (CI, scripts)

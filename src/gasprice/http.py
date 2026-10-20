@@ -9,7 +9,7 @@ from typing import Any
 
 import httpx
 
-DEFAULT_UA = "gas-price-api/0.1 (+https://github.com/; personal fuel price tracker)"
+DEFAULT_UA = "gas-price-api/0.1 (+https://github.com/bytehunt/gas-price-api)"
 
 
 def user_agent() -> str:
