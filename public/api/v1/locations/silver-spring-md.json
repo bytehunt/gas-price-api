@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-10-20T00:00:00Z",
+    "as_of": "2026-10-21T00:00:00Z",
     "month_ago": {
-      "diesel": 6.486,
-      "midgrade": 4.914,
-      "premium": 5.234,
+      "diesel": 6.48,
+      "midgrade": 4.901,
+      "premium": 5.25,
       "regular": 4.268
     },
     "prices": {
-      "diesel": 6.407,
-      "midgrade": 4.83,
-      "premium": 5.13,
-      "regular": 4.176
+      "diesel": 6.396,
+      "midgrade": 4.817,
+      "premium": 5.14,
+      "regular": 4.159
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.394,
-      "midgrade": 4.91,
-      "premium": 5.234,
-      "regular": 4.293
+      "diesel": 6.393,
+      "midgrade": 4.923,
+      "premium": 5.241,
+      "regular": 4.274
     },
     "year_ago": {
-      "diesel": 3.707,
-      "midgrade": 3.651,
-      "premium": 4.027,
-      "regular": 3.063
+      "diesel": 3.712,
+      "midgrade": 3.658,
+      "premium": 4.008,
+      "regular": 3.052
     },
     "yesterday": {
-      "diesel": 6.406,
-      "midgrade": 4.855,
-      "premium": 5.143,
-      "regular": 4.197
+      "diesel": 6.407,
+      "midgrade": 4.83,
+      "premium": 5.13,
+      "regular": 4.176
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-21T04:46:41.749903Z",
+  "generated_at": "2026-10-21T11:50:14.903527Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972814,
-    "lon": -77.0271457,
+    "lat": 38.9972474,
+    "lon": -77.0271603,
     "query": "20910",
     "region": "Maryland"
   },
@@ -175,7 +175,7 @@
       },
       "brand": "7-Eleven",
       "cash_prices": {},
-      "distance_mi": 0.77,
+      "distance_mi": 0.76,
       "id": "osm:way/79437843",
       "lat": 38.986193,
       "lon": -77.0272302,
@@ -307,7 +307,7 @@
       },
       "brand": "Marathon",
       "cash_prices": {},
-      "distance_mi": 1.17,
+      "distance_mi": 1.18,
       "id": "osm:way/89364163",
       "lat": 39.0106386,
       "lon": -77.0406694,
@@ -329,7 +329,7 @@
       },
       "brand": "Exxon",
       "cash_prices": {},
-      "distance_mi": 1.22,
+      "distance_mi": 1.21,
       "id": "osm:node/1363217858",
       "lat": 38.9796869,
       "lon": -77.0260354,
@@ -615,7 +615,7 @@
       },
       "brand": null,
       "cash_prices": {},
-      "distance_mi": 2.06,
+      "distance_mi": 2.05,
       "id": "osm:way/91898654",
       "lat": 38.9675316,
       "lon": -77.0268585,
