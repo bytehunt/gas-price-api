@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-20T23:57:21.368455Z",
+  "generated_at": "2026-10-21T03:57:33.431547Z",
   "name": "Columbia, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -57,6 +57,14 @@
     "lon": -76.8646092,
     "query": "Columbia, MD",
     "region": "Maryland"
+  },
+  "price_coverage": {
+    "area_level": true,
+    "detail": "US per-station prices are a licensed commercial product (OPIS, GasBuddy Business), not public data, so no free provider can supply them. Station locations are complete; prices here are area averages.",
+    "price_source": "aaa",
+    "reason": "no_free_source",
+    "station_level": false,
+    "station_source": "overpass"
   },
   "radius_mi": 7.0,
   "schema_version": "1",
