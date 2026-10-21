@@ -45,17 +45,16 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-21T11:45:51.985398Z",
+  "generated_at": "2026-10-21T21:41:19.542184Z",
   "name": "Mulberry St (Downtown Baltimore)",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages",
-    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
+    "no per-station prices for this area; station locations plus area averages"
   ],
   "place": {
     "country": "US",
     "display_name": "427, West Mulberry Street, Chinatown, Downtown, Baltimore, Maryland, 21201, United States",
-    "lat": 39.293778,
-    "lon": -76.6221733,
+    "lat": 39.293779,
+    "lon": -76.6221706,
     "query": "427 W Mulberry St, Baltimore, MD",
     "region": "Maryland"
   },
@@ -74,8 +73,7 @@
     "overpass",
     "aaa"
   ],
-  "stale": true,
-  "stale_as_of": "2026-10-21T17:10:18.553765+00:00",
+  "stale": false,
   "station_prices": false,
   "stations": [
     {

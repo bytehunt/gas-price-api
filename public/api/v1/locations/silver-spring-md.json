@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-21T17:23:13.102770Z",
+  "generated_at": "2026-10-21T21:44:20.239994Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972527,
-    "lon": -77.0271466,
+    "lat": 38.9972474,
+    "lon": -77.0271603,
     "query": "20910",
     "region": "Maryland"
   },
@@ -329,7 +329,7 @@
       },
       "brand": "Exxon",
       "cash_prices": {},
-      "distance_mi": 1.22,
+      "distance_mi": 1.21,
       "id": "osm:node/1363217858",
       "lat": 38.9796869,
       "lon": -77.0260354,
