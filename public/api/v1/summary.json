@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-21T11:45:50.551888+00:00",
+  "generated_at": "2026-10-21T17:10:18.553765+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -43,7 +43,7 @@
       "name": "Mulberry St (Downtown Baltimore)",
       "regular": null,
       "slug": "mulberry-st-baltimore",
-      "stale": false,
+      "stale": true,
       "station_prices": false
     },
     {

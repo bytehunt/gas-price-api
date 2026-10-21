@@ -48,7 +48,8 @@
   "generated_at": "2026-10-21T11:45:51.985398Z",
   "name": "Mulberry St (Downtown Baltimore)",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages"
+    "no per-station prices for this area; station locations plus area averages",
+    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
   ],
   "place": {
     "country": "US",
@@ -73,7 +74,8 @@
     "overpass",
     "aaa"
   ],
-  "stale": false,
+  "stale": true,
+  "stale_as_of": "2026-10-21T17:10:18.553765+00:00",
   "station_prices": false,
   "stations": [
     {
