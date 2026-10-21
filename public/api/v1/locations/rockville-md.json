@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-20T23:55:30.196653Z",
+  "generated_at": "2026-10-21T03:47:07.088136Z",
   "name": "Rockville, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -57,6 +57,14 @@
     "lon": -77.1516844,
     "query": "Rockville, MD",
     "region": "Maryland"
+  },
+  "price_coverage": {
+    "area_level": true,
+    "detail": "US per-station prices are a licensed commercial product (OPIS, GasBuddy Business), not public data, so no free provider can supply them. Station locations are complete; prices here are area averages.",
+    "price_source": "aaa",
+    "reason": "no_free_source",
+    "station_level": false,
+    "station_source": "overpass"
   },
   "radius_mi": 5.0,
   "schema_version": "1",

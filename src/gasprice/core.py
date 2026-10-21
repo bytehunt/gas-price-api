@@ -14,8 +14,8 @@ from .cache import JsonCache
 from .geo import parse_latlon
 from .geocode import ensure_region, geocode
 from .http import ProviderError
-from .models import DEFAULT_FUELS, FUELS, Place, StationsResult
-from .providers import DEFAULT_CHAIN, get_provider
+from .models import DEFAULT_FUELS, FUELS, Place, PriceCoverage, StationsResult
+from .providers import DEFAULT_CHAIN, PRICED_PROVIDERS, get_provider
 
 log = logging.getLogger("gasprice")
 
@@ -139,4 +139,54 @@ async def fetch_stations(
         result.notes.append(
             "no per-station prices for this area; station locations plus area averages"
         )
+
+    result.price_coverage = _coverage(result, chain)
     return result
+
+
+def _coverage(result: StationsResult, chain: list[str]) -> PriceCoverage:
+    """Explain the response's price tiers so clients don't parse `notes`."""
+    # Derive from the stations themselves: `sources` also carries the benchmark
+    # provider, so sources[0] is "aaa" whenever no station provider succeeded.
+    station_source = result.stations[0].source if result.stations else None
+    price_source = result.benchmark.source if result.benchmark else None
+
+    if result.station_prices:
+        return PriceCoverage(
+            station_level=True,
+            area_level=result.benchmark is not None,
+            station_source=station_source,
+            price_source=price_source,
+        )
+
+    # Checked before NO_STATIONS: when a price-capable provider was asked and
+    # broke, that is the useful diagnosis even if it also left us with no
+    # stations at all. "no_stations" would hide why.
+    if any(name in chain for name in PRICED_PROVIDERS):
+        reason, detail = (
+            PriceCoverage.PROVIDER_FAILED,
+            "A price-capable provider was queried but returned no per-station "
+            "prices. Check `notes` for the provider error.",
+        )
+    elif not result.stations:
+        reason, detail = (
+            PriceCoverage.NO_STATIONS,
+            "No stations were returned, so there is nothing to price. "
+            "Check `notes` for the provider error.",
+        )
+    else:
+        reason, detail = (
+            PriceCoverage.NO_FREE_SOURCE,
+            "US per-station prices are a licensed commercial product (OPIS, "
+            "GasBuddy Business), not public data, so no free provider can supply "
+            "them. Station locations are complete; prices here are area averages.",
+        )
+
+    return PriceCoverage(
+        station_level=False,
+        area_level=result.benchmark is not None,
+        reason=reason,
+        detail=detail,
+        station_source=station_source,
+        price_source=price_source,
+    )

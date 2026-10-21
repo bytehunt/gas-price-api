@@ -34,8 +34,16 @@ def get_provider(name: str) -> Provider:
         raise KeyError(f"unknown provider {name!r}; known: {sorted(REGISTRY)}") from None
 
 
+#: Providers capable of returning per-station prices. Used to tell "nobody can
+#: supply US pump prices" apart from "a price provider was asked and failed".
+PRICED_PROVIDERS = frozenset(
+    name for name, cls in REGISTRY.items() if getattr(cls, "has_prices", False)
+)
+
+
 __all__ = [
     "DEFAULT_CHAIN",
+    "PRICED_PROVIDERS",
     "REGISTRY",
     "GasBuddyProvider",
     "OverpassProvider",

@@ -297,3 +297,75 @@ def test_benchmark_can_be_disabled(wire):
 
     assert res.benchmark is None
     assert res.sources == ["overpass"]
+
+
+def test_coverage_reports_no_free_source_for_locations_only(wire):
+    """The normal US case: stations found, no price provider in the chain."""
+    wire(
+        _benchmark=BENCHMARK,
+        overpass=FakeProvider(
+            "overpass", has_prices=False, stations=[make_station("2", "overpass")]
+        ),
+    )
+    res = run(core.fetch_stations("20850", chain=["overpass"]))
+
+    cov = res.price_coverage
+    assert cov is not None
+    assert cov.station_level is False
+    assert cov.area_level is True
+    assert cov.reason == "no_free_source"
+    assert "licensed" in cov.detail
+    assert cov.station_source == "overpass"
+    assert cov.price_source == "aaa"
+
+
+def test_coverage_reports_provider_failed_when_a_price_provider_was_asked(wire):
+    """Distinguishes "nobody can" from "gasbuddy was tried and broke"."""
+    wire(
+        _benchmark=BENCHMARK,
+        gasbuddy=FakeProvider("gasbuddy", has_prices=True, error=ProviderError("HTTP 400")),
+        overpass=FakeProvider(
+            "overpass", has_prices=False, stations=[make_station("2", "overpass")]
+        ),
+    )
+    res = run(core.fetch_stations("20850", chain=["gasbuddy", "overpass"]))
+
+    assert res.price_coverage.reason == "provider_failed"
+    assert any("400" in n for n in res.notes)
+
+
+def test_coverage_reports_no_stations(wire):
+    wire(overpass=FakeProvider("overpass", has_prices=False, error=ProviderError("down")))
+    res = run(core.fetch_stations("20850", chain=["overpass"]))
+
+    assert res.price_coverage.reason == "no_stations"
+    assert res.price_coverage.area_level is False
+
+
+def test_coverage_is_clean_when_station_prices_exist(wire):
+    wire(
+        gasbuddy=FakeProvider(
+            "gasbuddy", has_prices=True, stations=[make_station("1", "gasbuddy", 3.09)]
+        )
+    )
+    res = run(core.fetch_stations("20850", chain=["gasbuddy"]))
+
+    cov = res.price_coverage
+    assert cov.station_level is True
+    assert cov.reason is None
+    assert cov.detail is None
+
+
+def test_coverage_station_source_is_never_the_benchmark_provider(wire):
+    """`sources` also lists "aaa", so station_source must come from the stations."""
+    wire(
+        _benchmark=BENCHMARK,
+        gasbuddy=FakeProvider("gasbuddy", has_prices=True, error=ProviderError("HTTP 400")),
+    )
+    res = run(core.fetch_stations("20850", chain=["gasbuddy"]))
+
+    assert res.sources == ["aaa"]
+    assert res.price_coverage.station_source is None
+    assert res.price_coverage.price_source == "aaa"
+    # A broken price provider is more informative than "no stations".
+    assert res.price_coverage.reason == "provider_failed"

@@ -115,9 +115,25 @@ public/
 const r = await fetch("https://bytehunt.github.io/gas-price-api/api/v1/summary.json");
 ```
 
-Each response carries `station_prices` (are these real pump prices?), `degraded`
-(no price data at all), and `stale` (a refresh failed, so this is the last good
-data). A worse refresh never overwrites a good one.
+Each response carries `stale` (a refresh failed, so this is the last good data)
+and a `price_coverage` object stating exactly which price tiers it holds, so a
+client never has to parse prose to find out:
+
+```json
+"price_coverage": {
+  "station_level": false,
+  "area_level": true,
+  "reason": "no_free_source",
+  "detail": "US per-station prices are a licensed commercial product ...",
+  "station_source": "overpass",
+  "price_source": "aaa"
+}
+```
+
+`reason` is `no_free_source` (the normal US case — not an error; render the area
+average and label it as an average), `provider_failed` (a price-capable provider
+was asked and broke — see `notes`), or `no_stations`. A worse refresh never
+overwrites a good one.
 
 ## GitHub Actions
 

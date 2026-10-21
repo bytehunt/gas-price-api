@@ -7,7 +7,7 @@ schema regardless of where the numbers came from.
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Any
+from typing import Any, ClassVar
 
 from pydantic import BaseModel, Field
 
@@ -144,6 +144,34 @@ class Benchmark(BaseModel):
         return round(now - then, 3)
 
 
+class PriceCoverage(BaseModel):
+    """What kind of price data this response actually contains, and why.
+
+    Consumers kept having to infer this from prose in `notes`. Stating it
+    explicitly means a UI can decide what to render without string matching:
+    `station_level` false plus `area_level` true means "show the area average,
+    labelled as an average" rather than "prices are broken".
+    """
+
+    station_level: bool
+    """True when at least one station carries a real per-pump price."""
+    area_level: bool
+    """True when an area average (`benchmark`) is attached."""
+    reason: str | None = None
+    """Machine-readable code when `station_level` is false."""
+    detail: str | None = None
+    """One human-readable sentence explaining `reason`."""
+    station_source: str | None = None
+    price_source: str | None = None
+
+    #: Why per-station prices are missing. `no_free_source` is the normal US
+    #: case and is not an error; the others are genuine failures. ClassVar so
+    #: pydantic treats these as constants rather than model fields.
+    NO_FREE_SOURCE: ClassVar[str] = "no_free_source"
+    PROVIDER_FAILED: ClassVar[str] = "provider_failed"
+    NO_STATIONS: ClassVar[str] = "no_stations"
+
+
 class StationsResult(BaseModel):
     schema_version: str = SCHEMA_VERSION
     generated_at: datetime
@@ -161,6 +189,8 @@ class StationsResult(BaseModel):
     trend: Trend | None = None
     benchmark: Benchmark | None = None
     """Area-average prices. Present even when per-station prices are not."""
+    price_coverage: PriceCoverage | None = None
+    """Explicit statement of which price tiers this response carries."""
     count: int = 0
     stations: list[Station] = Field(default_factory=list)
 
