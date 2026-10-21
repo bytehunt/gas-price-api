@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-21T03:56:33.068485Z",
+  "generated_at": "2026-10-21T04:46:41.749903Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972867,
-    "lon": -77.0271235,
+    "lat": 38.9972814,
+    "lon": -77.0271457,
     "query": "20910",
     "region": "Maryland"
   },
@@ -232,6 +232,28 @@
     },
     {
       "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.04,
+      "id": "osm:node/757589863",
+      "lat": 38.9821736,
+      "lon": -77.0263491,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/757589863"
+    },
+    {
+      "address": {
         "city": "Silver Spring",
         "country": null,
         "line1": "9336 Georgia Avenue",
@@ -251,28 +273,6 @@
       "ratings_count": null,
       "source": "overpass",
       "url": "https://www.openstreetmap.org/way/370361091"
-    },
-    {
-      "address": {
-        "city": null,
-        "country": null,
-        "line1": null,
-        "line2": null,
-        "postal_code": null,
-        "region": null
-      },
-      "brand": "BP",
-      "cash_prices": {},
-      "distance_mi": 1.05,
-      "id": "osm:node/757589863",
-      "lat": 38.9821736,
-      "lon": -77.0263491,
-      "name": "BP",
-      "prices": {},
-      "rating": null,
-      "ratings_count": null,
-      "source": "overpass",
-      "url": "https://www.openstreetmap.org/node/757589863"
     },
     {
       "address": {
@@ -571,7 +571,7 @@
       },
       "brand": "Sunoco",
       "cash_prices": {},
-      "distance_mi": 1.94,
+      "distance_mi": 1.95,
       "id": "osm:way/292847893",
       "lat": 38.9995422,
       "lon": -76.9910353,
