@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-22T11:48:47.009203+00:00",
+  "generated_at": "2026-10-22T17:08:34.737316+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -63,7 +63,7 @@
       "name": "Pulaski Hwy (Rosedale)",
       "regular": null,
       "slug": "pulaski-hwy-rosedale",
-      "stale": false,
+      "stale": true,
       "station_prices": false
     },
     {
