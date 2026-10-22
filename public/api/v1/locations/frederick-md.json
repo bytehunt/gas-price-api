@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Frederick",
-    "as_of": "2026-10-21T00:00:00Z",
+    "as_of": "2026-10-22T00:00:00Z",
     "month_ago": {
-      "diesel": 6.468,
-      "midgrade": 4.696,
-      "premium": 5.04,
-      "regular": 4.197
+      "diesel": 6.469,
+      "midgrade": 4.67,
+      "premium": 5.034,
+      "regular": 4.198
     },
     "prices": {
-      "diesel": 6.366,
-      "midgrade": 4.551,
-      "premium": 4.939,
-      "regular": 4.075
+      "diesel": 6.357,
+      "midgrade": 4.516,
+      "premium": 4.905,
+      "regular": 4.064
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.373,
-      "midgrade": 4.663,
-      "premium": 5.026,
-      "regular": 4.203
+      "diesel": 6.354,
+      "midgrade": 4.639,
+      "premium": 5.024,
+      "regular": 4.176
     },
     "year_ago": {
-      "diesel": 3.618,
-      "midgrade": 3.44,
-      "premium": 3.776,
-      "regular": 2.963
+      "diesel": 3.614,
+      "midgrade": 3.424,
+      "premium": 3.767,
+      "regular": 2.955
     },
     "yesterday": {
-      "diesel": 6.381,
-      "midgrade": 4.521,
-      "premium": 4.946,
-      "regular": 4.097
+      "diesel": 6.366,
+      "midgrade": 4.551,
+      "premium": 4.939,
+      "regular": 4.075
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-22T04:49:15.844258Z",
+  "generated_at": "2026-10-22T11:59:01.767807Z",
   "name": "Frederick, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
