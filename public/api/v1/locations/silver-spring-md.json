@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-22T17:23:11.893819Z",
+  "generated_at": "2026-10-22T21:41:37.371327Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972515,
-    "lon": -77.0271618,
+    "lat": 38.9972611,
+    "lon": -77.0271482,
     "query": "20910",
     "region": "Maryland"
   },
@@ -417,7 +417,7 @@
       },
       "brand": "7-Eleven",
       "cash_prices": {},
-      "distance_mi": 1.73,
+      "distance_mi": 1.72,
       "id": "osm:way/512112688",
       "lat": 39.0001953,
       "lon": -76.9952606,
