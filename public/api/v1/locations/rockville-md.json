@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-21T21:43:47.737463Z",
+  "generated_at": "2026-10-22T04:45:24.829998Z",
   "name": "Rockville, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -551,8 +551,8 @@
       "cash_prices": {},
       "distance_mi": 2.37,
       "id": "osm:node/1334712218",
-      "lat": 39.1147211,
-      "lon": -77.1640481,
+      "lat": 39.1146789,
+      "lon": -77.1640435,
       "name": "Frederick Road Marathon",
       "prices": {},
       "rating": null,
@@ -593,10 +593,10 @@
       },
       "brand": "7-Eleven",
       "cash_prices": {},
-      "distance_mi": 2.45,
+      "distance_mi": 2.46,
       "id": "osm:node/1656092888",
-      "lat": 39.1155664,
-      "lon": -77.1656811,
+      "lat": 39.1156615,
+      "lon": -77.1655651,
       "name": "7-Eleven",
       "prices": {},
       "rating": null,
