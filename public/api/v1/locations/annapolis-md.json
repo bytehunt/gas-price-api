@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Annapolis",
-    "as_of": "2026-10-22T00:00:00Z",
+    "as_of": "2026-10-23T00:00:00Z",
     "month_ago": {
-      "diesel": 6.497,
-      "midgrade": 4.861,
-      "premium": 5.198,
-      "regular": 4.204
+      "diesel": 6.495,
+      "midgrade": 4.887,
+      "premium": 5.224,
+      "regular": 4.226
     },
     "prices": {
-      "diesel": 6.331,
-      "midgrade": 4.667,
-      "premium": 4.995,
-      "regular": 4.027
+      "diesel": 6.327,
+      "midgrade": 4.663,
+      "premium": 4.985,
+      "regular": 4.014
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.321,
-      "midgrade": 4.862,
-      "premium": 5.126,
-      "regular": 4.192
+      "diesel": 6.311,
+      "midgrade": 4.805,
+      "premium": 5.079,
+      "regular": 4.152
     },
     "year_ago": {
-      "diesel": 3.609,
-      "midgrade": 3.593,
-      "premium": 3.901,
-      "regular": 2.952
+      "diesel": 3.607,
+      "midgrade": 3.596,
+      "premium": 3.905,
+      "regular": 2.934
     },
     "yesterday": {
       "diesel": 6.331,
-      "midgrade": 4.737,
-      "premium": 4.979,
-      "regular": 4.045
+      "midgrade": 4.667,
+      "premium": 4.995,
+      "regular": 4.027
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-23T04:51:10.282092Z",
+  "generated_at": "2026-10-23T11:42:22.343804Z",
   "name": "Annapolis, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"

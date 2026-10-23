@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-10-22T00:00:00Z",
+    "as_of": "2026-10-23T00:00:00Z",
     "month_ago": {
       "diesel": 6.491,
-      "midgrade": 4.786,
-      "premium": 5.139,
-      "regular": 4.197
+      "midgrade": 4.808,
+      "premium": 5.163,
+      "regular": 4.214
     },
     "prices": {
-      "diesel": 6.344,
-      "midgrade": 4.584,
+      "diesel": 6.34,
+      "midgrade": 4.566,
       "premium": 4.907,
-      "regular": 4.019
+      "regular": 4.005
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.327,
-      "midgrade": 4.765,
-      "premium": 5.055,
-      "regular": 4.177
+      "diesel": 6.313,
+      "midgrade": 4.701,
+      "premium": 5.005,
+      "regular": 4.132
     },
     "year_ago": {
-      "diesel": 3.598,
-      "midgrade": 3.509,
-      "premium": 3.795,
-      "regular": 2.929
+      "diesel": 3.596,
+      "midgrade": 3.494,
+      "premium": 3.791,
+      "regular": 2.913
     },
     "yesterday": {
-      "diesel": 6.348,
-      "midgrade": 4.608,
-      "premium": 4.914,
-      "regular": 4.032
+      "diesel": 6.344,
+      "midgrade": 4.584,
+      "premium": 4.907,
+      "regular": 4.019
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-23T04:47:57.001181Z",
+  "generated_at": "2026-10-23T11:37:29.648963Z",
   "name": "Belair Rd (Hamilton)",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
