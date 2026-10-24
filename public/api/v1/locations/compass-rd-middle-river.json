@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-10-23T00:00:00Z",
+    "as_of": "2026-10-24T00:00:00Z",
     "month_ago": {
-      "diesel": 6.491,
-      "midgrade": 4.808,
-      "premium": 5.163,
-      "regular": 4.214
+      "diesel": 6.484,
+      "midgrade": 4.853,
+      "premium": 5.192,
+      "regular": 4.324
     },
     "prices": {
-      "diesel": 6.34,
-      "midgrade": 4.566,
-      "premium": 4.907,
-      "regular": 4.005
+      "diesel": 6.322,
+      "midgrade": 4.529,
+      "premium": 4.867,
+      "regular": 3.952
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.313,
-      "midgrade": 4.701,
-      "premium": 5.005,
-      "regular": 4.132
+      "diesel": 6.329,
+      "midgrade": 4.673,
+      "premium": 4.967,
+      "regular": 4.11
     },
     "year_ago": {
-      "diesel": 3.596,
-      "midgrade": 3.494,
-      "premium": 3.791,
-      "regular": 2.913
+      "diesel": 3.598,
+      "midgrade": 3.477,
+      "premium": 3.771,
+      "regular": 2.916
     },
     "yesterday": {
-      "diesel": 6.344,
-      "midgrade": 4.584,
+      "diesel": 6.34,
+      "midgrade": 4.566,
       "premium": 4.907,
-      "regular": 4.019
+      "regular": 4.005
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-24T04:34:27.530472Z",
+  "generated_at": "2026-10-24T10:57:00.293320Z",
   "name": "Compass Rd (Middle River)",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"

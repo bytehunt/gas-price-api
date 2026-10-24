@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-10-23T00:00:00Z",
+    "as_of": "2026-10-24T00:00:00Z",
     "month_ago": {
-      "diesel": 6.504,
-      "midgrade": 4.949,
-      "premium": 5.287,
-      "regular": 4.296
+      "diesel": 6.503,
+      "midgrade": 4.973,
+      "premium": 5.305,
+      "regular": 4.359
     },
     "prices": {
-      "diesel": 6.38,
-      "midgrade": 4.762,
-      "premium": 5.117,
-      "regular": 4.125
+      "diesel": 6.368,
+      "midgrade": 4.739,
+      "premium": 5.087,
+      "regular": 4.096
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.375,
-      "midgrade": 4.888,
-      "premium": 5.195,
-      "regular": 4.23
+      "diesel": 6.386,
+      "midgrade": 4.846,
+      "premium": 5.193,
+      "regular": 4.21
     },
     "year_ago": {
-      "diesel": 3.694,
-      "midgrade": 3.648,
-      "premium": 3.982,
-      "regular": 3.031
+      "diesel": 3.693,
+      "midgrade": 3.641,
+      "premium": 3.99,
+      "regular": 3.036
     },
     "yesterday": {
-      "diesel": 6.385,
-      "midgrade": 4.773,
-      "premium": 5.13,
-      "regular": 4.135
+      "diesel": 6.38,
+      "midgrade": 4.762,
+      "premium": 5.117,
+      "regular": 4.125
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-24T04:36:18.653096Z",
+  "generated_at": "2026-10-24T10:58:23.269062Z",
   "name": "Rockville, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
