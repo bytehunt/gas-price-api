@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-27T08:56:56.126222+00:00",
+  "generated_at": "2026-10-27T15:20:46.258913+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -53,7 +53,7 @@
       "name": "Compass Rd (Middle River)",
       "regular": null,
       "slug": "compass-rd-middle-river",
-      "stale": false,
+      "stale": true,
       "station_prices": false
     },
     {

@@ -1,11 +1,13 @@
 {
-  "degraded_count": 0,
+  "degraded_count": 1,
   "endpoints": {
     "index": "api/v1/index.json",
     "location": "api/v1/locations/{slug}.json",
     "summary": "api/v1/summary.json"
   },
-  "failures": [],
+  "failures": [
+    "compass-rd-middle-river: lost all stations, served stale"
+  ],
   "fuels": {
     "diesel": "Diesel",
     "e85": "E85",
@@ -14,7 +16,7 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-10-27T08:56:56.126222+00:00",
+  "generated_at": "2026-10-27T15:20:46.258913+00:00",
   "location_count": 11,
   "locations": [
     {
@@ -64,7 +66,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T08:56:57.342392Z",
+      "generated_at": "2026-10-27T15:20:48.066468Z",
       "name": "Mulberry St (Downtown Baltimore)",
       "place": {
         "country": "US",
@@ -170,7 +172,7 @@
       },
       "radius_mi": 3.0,
       "slug": "compass-rd-middle-river",
-      "stale": false,
+      "stale": true,
       "station_prices": false,
       "stats": {
         "diesel": {
@@ -252,7 +254,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T08:58:19.657463Z",
+      "generated_at": "2026-10-27T15:32:36.857166Z",
       "name": "Pulaski Hwy (Rosedale)",
       "place": {
         "country": "US",
@@ -346,7 +348,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T08:59:46.182035Z",
+      "generated_at": "2026-10-27T15:33:21.762828Z",
       "name": "Belair Rd (Hamilton)",
       "place": {
         "country": "US",
@@ -440,7 +442,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:01:29.144708Z",
+      "generated_at": "2026-10-27T15:34:55.323187Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -534,13 +536,13 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:02:14.686197Z",
+      "generated_at": "2026-10-27T15:35:43.708893Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
         "display_name": "20910, Montgomery County, Maryland, United States",
-        "lat": 38.9972806,
-        "lon": -77.0271501,
+        "lat": 38.9972903,
+        "lon": -77.0271364,
         "query": "20910",
         "region": "Maryland"
       },
@@ -628,7 +630,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:02:55.029246Z",
+      "generated_at": "2026-10-27T15:36:21.746514Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -722,7 +724,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:03:48.382070Z",
+      "generated_at": "2026-10-27T15:37:06.309303Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -816,7 +818,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:04:30.997565Z",
+      "generated_at": "2026-10-27T15:37:48.478660Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -910,7 +912,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:05:17.630278Z",
+      "generated_at": "2026-10-27T15:38:31.361045Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -1004,7 +1006,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-27T09:06:03.456112Z",
+      "generated_at": "2026-10-27T15:39:13.767010Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",
