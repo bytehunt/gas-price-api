@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-10-26T00:00:00Z",
+    "as_of": "2026-10-27T00:00:00Z",
     "month_ago": {
-      "diesel": 6.499,
-      "midgrade": 5.025,
-      "premium": 5.348,
-      "regular": 4.384
+      "diesel": 6.496,
+      "midgrade": 5.021,
+      "premium": 5.339,
+      "regular": 4.382
     },
     "prices": {
-      "diesel": 6.346,
-      "midgrade": 4.711,
-      "premium": 5.053,
-      "regular": 4.087
+      "diesel": 6.373,
+      "midgrade": 4.759,
+      "premium": 5.104,
+      "regular": 4.126
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.406,
-      "midgrade": 4.855,
-      "premium": 5.143,
-      "regular": 4.197
+      "diesel": 6.407,
+      "midgrade": 4.83,
+      "premium": 5.13,
+      "regular": 4.176
     },
     "year_ago": {
-      "diesel": 3.711,
-      "midgrade": 3.678,
-      "premium": 3.994,
-      "regular": 3.068
+      "diesel": 3.723,
+      "midgrade": 3.689,
+      "premium": 4.008,
+      "regular": 3.07
     },
     "yesterday": {
-      "diesel": 6.367,
-      "midgrade": 4.76,
-      "premium": 5.081,
-      "regular": 4.093
+      "diesel": 6.346,
+      "midgrade": 4.711,
+      "premium": 5.053,
+      "regular": 4.087
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-27T00:28:40.039087Z",
+  "generated_at": "2026-10-27T09:02:14.686197Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972903,
-    "lon": -77.0271364,
+    "lat": 38.9972806,
+    "lon": -77.0271501,
     "query": "20910",
     "region": "Maryland"
   },
@@ -232,6 +232,28 @@
     },
     {
       "address": {
+        "city": null,
+        "country": null,
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "region": null
+      },
+      "brand": "BP",
+      "cash_prices": {},
+      "distance_mi": 1.04,
+      "id": "osm:node/757589863",
+      "lat": 38.9821736,
+      "lon": -77.0263491,
+      "name": "BP",
+      "prices": {},
+      "rating": null,
+      "ratings_count": null,
+      "source": "overpass",
+      "url": "https://www.openstreetmap.org/node/757589863"
+    },
+    {
+      "address": {
         "city": "Silver Spring",
         "country": null,
         "line1": "9336 Georgia Avenue",
@@ -251,28 +273,6 @@
       "ratings_count": null,
       "source": "overpass",
       "url": "https://www.openstreetmap.org/way/370361091"
-    },
-    {
-      "address": {
-        "city": null,
-        "country": null,
-        "line1": null,
-        "line2": null,
-        "postal_code": null,
-        "region": null
-      },
-      "brand": "BP",
-      "cash_prices": {},
-      "distance_mi": 1.05,
-      "id": "osm:node/757589863",
-      "lat": 38.9821736,
-      "lon": -77.0263491,
-      "name": "BP",
-      "prices": {},
-      "rating": null,
-      "ratings_count": null,
-      "source": "overpass",
-      "url": "https://www.openstreetmap.org/node/757589863"
     },
     {
       "address": {
@@ -571,7 +571,7 @@
       },
       "brand": "Sunoco",
       "cash_prices": {},
-      "distance_mi": 1.94,
+      "distance_mi": 1.95,
       "id": "osm:way/292847893",
       "lat": 38.9995422,
       "lon": -76.9910353,
