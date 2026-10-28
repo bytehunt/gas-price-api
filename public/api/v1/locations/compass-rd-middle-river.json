@@ -45,11 +45,10 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-27T08:57:35.887852Z",
+  "generated_at": "2026-10-28T05:39:41.772831Z",
   "name": "Compass Rd (Middle River)",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages",
-    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
+    "no per-station prices for this area; station locations plus area averages"
   ],
   "place": {
     "country": "US",
@@ -74,8 +73,7 @@
     "overpass",
     "aaa"
   ],
-  "stale": true,
-  "stale_as_of": "2026-10-27T15:20:46.258913+00:00",
+  "stale": false,
   "station_prices": false,
   "stations": [
     {
