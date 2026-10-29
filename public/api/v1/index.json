@@ -6,7 +6,7 @@
     "summary": "api/v1/summary.json"
   },
   "failures": [
-    "annapolis-md: lost all stations, served stale"
+    "belair-rd-baltimore: lost all stations, served stale"
   ],
   "fuels": {
     "diesel": "Diesel",
@@ -16,7 +16,7 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-10-29T09:55:52.529792+00:00",
+  "generated_at": "2026-10-29T18:27:50.481529+00:00",
   "location_count": 11,
   "locations": [
     {
@@ -66,7 +66,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T09:55:54.275892Z",
+      "generated_at": "2026-10-29T18:27:52.070468Z",
       "name": "Mulberry St (Downtown Baltimore)",
       "place": {
         "country": "US",
@@ -160,7 +160,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T09:56:42.903493Z",
+      "generated_at": "2026-10-29T18:28:24.527685Z",
       "name": "Compass Rd (Middle River)",
       "place": {
         "country": "US",
@@ -254,7 +254,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T09:57:17.070571Z",
+      "generated_at": "2026-10-29T18:29:13.619663Z",
       "name": "Pulaski Hwy (Rosedale)",
       "place": {
         "country": "US",
@@ -360,7 +360,7 @@
       },
       "radius_mi": 3.0,
       "slug": "belair-rd-baltimore",
-      "stale": false,
+      "stale": true,
       "station_prices": false,
       "stats": {
         "diesel": {
@@ -442,7 +442,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:01:55.758623Z",
+      "generated_at": "2026-10-29T18:38:43.187844Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -536,13 +536,13 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:02:28.163626Z",
+      "generated_at": "2026-10-29T18:39:19.714232Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
         "display_name": "20910, Montgomery County, Maryland, United States",
-        "lat": 38.997269,
-        "lon": -77.0271518,
+        "lat": 38.9972594,
+        "lon": -77.0271653,
         "query": "20910",
         "region": "Maryland"
       },
@@ -630,7 +630,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:03:02.635431Z",
+      "generated_at": "2026-10-29T18:40:04.383306Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -724,7 +724,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:03:35.189968Z",
+      "generated_at": "2026-10-29T18:40:39.228926Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -818,7 +818,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:04:17.267636Z",
+      "generated_at": "2026-10-29T18:42:03.604106Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -868,39 +868,39 @@
     {
       "benchmark": {
         "area": "Annapolis",
-        "as_of": "2026-10-28T00:00:00Z",
+        "as_of": "2026-10-29T00:00:00Z",
         "month_ago": {
-          "diesel": 6.476,
-          "midgrade": 5.032,
-          "premium": 5.307,
-          "regular": 4.373
+          "diesel": 6.469,
+          "midgrade": 4.978,
+          "premium": 5.273,
+          "regular": 4.334
         },
         "prices": {
-          "diesel": 6.303,
-          "midgrade": 4.665,
-          "premium": 4.957,
-          "regular": 3.996
+          "diesel": 6.321,
+          "midgrade": 4.625,
+          "premium": 4.94,
+          "regular": 3.992
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
           "diesel": 6.331,
-          "midgrade": 4.737,
-          "premium": 4.979,
-          "regular": 4.045
+          "midgrade": 4.667,
+          "premium": 4.995,
+          "regular": 4.027
         },
         "year_ago": {
-          "diesel": 3.615,
-          "midgrade": 3.598,
-          "premium": 3.897,
-          "regular": 2.948
+          "diesel": 3.614,
+          "midgrade": 3.595,
+          "premium": 3.879,
+          "regular": 2.936
         },
         "yesterday": {
-          "diesel": 6.304,
-          "midgrade": 4.662,
-          "premium": 4.928,
-          "regular": 3.965
+          "diesel": 6.303,
+          "midgrade": 4.665,
+          "premium": 4.957,
+          "regular": 3.996
         }
       },
       "cheapest": {},
@@ -912,7 +912,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T01:03:55.020548Z",
+      "generated_at": "2026-10-29T18:42:39.686226Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -924,7 +924,7 @@
       },
       "radius_mi": 5.0,
       "slug": "annapolis-md",
-      "stale": true,
+      "stale": false,
       "station_prices": false,
       "stats": {
         "diesel": {
@@ -1006,7 +1006,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:11:57.445353Z",
+      "generated_at": "2026-10-29T18:43:23.900918Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",

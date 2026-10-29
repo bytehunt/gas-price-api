@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Annapolis",
-    "as_of": "2026-10-28T00:00:00Z",
+    "as_of": "2026-10-29T00:00:00Z",
     "month_ago": {
-      "diesel": 6.476,
-      "midgrade": 5.032,
-      "premium": 5.307,
-      "regular": 4.373
+      "diesel": 6.469,
+      "midgrade": 4.978,
+      "premium": 5.273,
+      "regular": 4.334
     },
     "prices": {
-      "diesel": 6.303,
-      "midgrade": 4.665,
-      "premium": 4.957,
-      "regular": 3.996
+      "diesel": 6.321,
+      "midgrade": 4.625,
+      "premium": 4.94,
+      "regular": 3.992
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
       "diesel": 6.331,
-      "midgrade": 4.737,
-      "premium": 4.979,
-      "regular": 4.045
+      "midgrade": 4.667,
+      "premium": 4.995,
+      "regular": 4.027
     },
     "year_ago": {
-      "diesel": 3.615,
-      "midgrade": 3.598,
-      "premium": 3.897,
-      "regular": 2.948
+      "diesel": 3.614,
+      "midgrade": 3.595,
+      "premium": 3.879,
+      "regular": 2.936
     },
     "yesterday": {
-      "diesel": 6.304,
-      "midgrade": 4.662,
-      "premium": 4.928,
-      "regular": 3.965
+      "diesel": 6.303,
+      "midgrade": 4.665,
+      "premium": 4.957,
+      "regular": 3.996
     }
   },
   "cheapest": {},
@@ -45,11 +45,10 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-29T01:03:55.020548Z",
+  "generated_at": "2026-10-29T18:42:39.686226Z",
   "name": "Annapolis, MD",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages",
-    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
+    "no per-station prices for this area; station locations plus area averages"
   ],
   "place": {
     "country": "US",
@@ -74,8 +73,7 @@
     "overpass",
     "aaa"
   ],
-  "stale": true,
-  "stale_as_of": "2026-10-29T09:55:52.529792+00:00",
+  "stale": false,
   "station_prices": false,
   "stations": [
     {
@@ -478,7 +476,7 @@
       "address": {
         "city": null,
         "country": null,
-        "line1": null,
+        "line1": "140 Old Solomons Island Road",
         "line2": null,
         "postal_code": null,
         "region": null
