@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-10-28T00:00:00Z",
+    "as_of": "2026-10-29T00:00:00Z",
     "month_ago": {
-      "diesel": 6.502,
-      "midgrade": 4.992,
-      "premium": 5.333,
-      "regular": 4.375
+      "diesel": 6.492,
+      "midgrade": 4.993,
+      "premium": 5.323,
+      "regular": 4.358
     },
     "prices": {
-      "diesel": 6.379,
-      "midgrade": 4.763,
-      "premium": 5.109,
-      "regular": 4.132
+      "diesel": 6.376,
+      "midgrade": 4.725,
+      "premium": 5.102,
+      "regular": 4.118
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.396,
-      "midgrade": 4.817,
-      "premium": 5.14,
-      "regular": 4.159
+      "diesel": 6.385,
+      "midgrade": 4.773,
+      "premium": 5.13,
+      "regular": 4.135
     },
     "year_ago": {
-      "diesel": 3.725,
-      "midgrade": 3.7,
-      "premium": 3.994,
-      "regular": 3.075
+      "diesel": 3.732,
+      "midgrade": 3.661,
+      "premium": 3.996,
+      "regular": 3.061
     },
     "yesterday": {
-      "diesel": 6.373,
-      "midgrade": 4.759,
-      "premium": 5.104,
-      "regular": 4.126
+      "diesel": 6.379,
+      "midgrade": 4.763,
+      "premium": 5.109,
+      "regular": 4.132
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-29T00:57:48.863019Z",
+  "generated_at": "2026-10-29T10:03:02.635431Z",
   "name": "Bethesda, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"

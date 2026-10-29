@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-10-28T00:00:00Z",
+    "as_of": "2026-10-29T00:00:00Z",
     "month_ago": {
-      "diesel": 6.477,
-      "midgrade": 4.939,
-      "premium": 5.256,
-      "regular": 4.374
+      "diesel": 6.462,
+      "midgrade": 4.9,
+      "premium": 5.207,
+      "regular": 4.333
     },
     "prices": {
-      "diesel": 6.318,
-      "midgrade": 4.566,
-      "premium": 4.885,
-      "regular": 3.986
+      "diesel": 6.335,
+      "midgrade": 4.558,
+      "premium": 4.889,
+      "regular": 3.994
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.348,
-      "midgrade": 4.608,
-      "premium": 4.914,
-      "regular": 4.032
+      "diesel": 6.344,
+      "midgrade": 4.584,
+      "premium": 4.907,
+      "regular": 4.019
     },
     "year_ago": {
-      "diesel": 3.613,
-      "midgrade": 3.499,
-      "premium": 3.803,
-      "regular": 2.933
+      "diesel": 3.609,
+      "midgrade": 3.487,
+      "premium": 3.782,
+      "regular": 2.919
     },
     "yesterday": {
       "diesel": 6.318,
-      "midgrade": 4.544,
-      "premium": 4.866,
-      "regular": 3.957
+      "midgrade": 4.566,
+      "premium": 4.885,
+      "regular": 3.986
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-10-29T00:55:21.924743Z",
+  "generated_at": "2026-10-29T09:57:17.070571Z",
   "name": "Pulaski Hwy (Rosedale)",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
