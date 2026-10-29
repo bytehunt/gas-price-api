@@ -14,7 +14,7 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-10-28T20:15:30.473218+00:00",
+  "generated_at": "2026-10-29T00:54:03.815118+00:00",
   "location_count": 11,
   "locations": [
     {
@@ -64,7 +64,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:15:32.024618Z",
+      "generated_at": "2026-10-29T00:54:05.400897Z",
       "name": "Mulberry St (Downtown Baltimore)",
       "place": {
         "country": "US",
@@ -158,7 +158,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:16:23.578325Z",
+      "generated_at": "2026-10-29T00:54:41.663588Z",
       "name": "Compass Rd (Middle River)",
       "place": {
         "country": "US",
@@ -252,7 +252,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:17:05.862092Z",
+      "generated_at": "2026-10-29T00:55:21.924743Z",
       "name": "Pulaski Hwy (Rosedale)",
       "place": {
         "country": "US",
@@ -346,7 +346,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:17:46.067859Z",
+      "generated_at": "2026-10-29T00:56:00.291907Z",
       "name": "Belair Rd (Hamilton)",
       "place": {
         "country": "US",
@@ -440,7 +440,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:18:20.097239Z",
+      "generated_at": "2026-10-29T00:56:32.038182Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -534,13 +534,13 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:19:19.440141Z",
+      "generated_at": "2026-10-29T00:57:14.531685Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
         "display_name": "20910, Montgomery County, Maryland, United States",
-        "lat": 38.997266,
-        "lon": -77.0271523,
+        "lat": 38.9972702,
+        "lon": -77.0271524,
         "query": "20910",
         "region": "Maryland"
       },
@@ -628,7 +628,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:20:00.049204Z",
+      "generated_at": "2026-10-29T00:57:48.863019Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -722,7 +722,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:24:52.749089Z",
+      "generated_at": "2026-10-29T00:58:31.865995Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -816,7 +816,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:26:24.003561Z",
+      "generated_at": "2026-10-29T00:59:12.394368Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -910,7 +910,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:30:17.950285Z",
+      "generated_at": "2026-10-29T01:03:55.020548Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -1004,11 +1004,11 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-28T20:30:56.587485Z",
+      "generated_at": "2026-10-29T01:04:30.389975Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",
-        "display_name": "Frederick, Frederick County, Maryland, 21709, United States",
+        "display_name": "Frederick, Frederick County, Maryland, United States",
         "lat": 39.415779,
         "lon": -77.4127562,
         "query": "Frederick, MD",
