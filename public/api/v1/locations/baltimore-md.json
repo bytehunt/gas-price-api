@@ -48,7 +48,8 @@
   "generated_at": "2026-10-30T01:04:31.925018Z",
   "name": "Baltimore, MD",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages"
+    "no per-station prices for this area; station locations plus area averages",
+    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
   ],
   "place": {
     "country": "US",
@@ -73,7 +74,8 @@
     "overpass",
     "aaa"
   ],
-  "stale": false,
+  "stale": true,
+  "stale_as_of": "2026-10-30T09:58:14.000646+00:00",
   "station_prices": false,
   "stations": [
     {
