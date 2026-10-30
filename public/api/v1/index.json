@@ -1,13 +1,11 @@
 {
-  "degraded_count": 1,
+  "degraded_count": 0,
   "endpoints": {
     "index": "api/v1/index.json",
     "location": "api/v1/locations/{slug}.json",
     "summary": "api/v1/summary.json"
   },
-  "failures": [
-    "belair-rd-baltimore: lost all stations, served stale"
-  ],
+  "failures": [],
   "fuels": {
     "diesel": "Diesel",
     "e85": "E85",
@@ -16,7 +14,7 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-10-29T18:27:50.481529+00:00",
+  "generated_at": "2026-10-30T00:58:05.761344+00:00",
   "location_count": 11,
   "locations": [
     {
@@ -66,7 +64,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:27:52.070468Z",
+      "generated_at": "2026-10-30T00:58:07.145191Z",
       "name": "Mulberry St (Downtown Baltimore)",
       "place": {
         "country": "US",
@@ -160,7 +158,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:28:24.527685Z",
+      "generated_at": "2026-10-30T00:58:47.395292Z",
       "name": "Compass Rd (Middle River)",
       "place": {
         "country": "US",
@@ -254,7 +252,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:29:13.619663Z",
+      "generated_at": "2026-10-30T00:59:30.915277Z",
       "name": "Pulaski Hwy (Rosedale)",
       "place": {
         "country": "US",
@@ -348,7 +346,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T10:01:05.467659Z",
+      "generated_at": "2026-10-30T01:00:05.091913Z",
       "name": "Belair Rd (Hamilton)",
       "place": {
         "country": "US",
@@ -360,7 +358,7 @@
       },
       "radius_mi": 3.0,
       "slug": "belair-rd-baltimore",
-      "stale": true,
+      "stale": false,
       "station_prices": false,
       "stats": {
         "diesel": {
@@ -442,7 +440,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:38:43.187844Z",
+      "generated_at": "2026-10-30T01:00:57.875927Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -536,7 +534,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:39:19.714232Z",
+      "generated_at": "2026-10-30T01:02:27.099726Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
@@ -630,7 +628,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:40:04.383306Z",
+      "generated_at": "2026-10-30T01:03:03.087620Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -724,7 +722,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:40:39.228926Z",
+      "generated_at": "2026-10-30T01:03:49.913832Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -818,7 +816,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:42:03.604106Z",
+      "generated_at": "2026-10-30T01:04:31.925018Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -912,7 +910,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:42:39.686226Z",
+      "generated_at": "2026-10-30T01:05:02.654230Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -1006,7 +1004,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-10-29T18:43:23.900918Z",
+      "generated_at": "2026-10-30T01:05:40.069394Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",
