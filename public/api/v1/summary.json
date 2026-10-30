@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-10-30T09:58:14.000646+00:00",
+  "generated_at": "2026-10-30T22:16:33.213563+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -118,12 +118,12 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.994,
+      "area_average_regular": 3.964,
       "degraded": false,
       "name": "Baltimore, MD",
       "regular": null,
       "slug": "baltimore-md",
-      "stale": true,
+      "stale": false,
       "station_prices": false
     },
     {
