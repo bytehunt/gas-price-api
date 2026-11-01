@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-10-31T00:00:00Z",
+    "as_of": "2026-11-01T00:00:00Z",
     "month_ago": {
-      "diesel": 6.474,
-      "midgrade": 4.974,
-      "premium": 5.306,
-      "regular": 4.343
+      "diesel": 6.464,
+      "midgrade": 4.957,
+      "premium": 5.292,
+      "regular": 4.326
     },
     "prices": {
-      "diesel": 6.359,
-      "midgrade": 4.718,
-      "premium": 5.049,
-      "regular": 4.083
+      "diesel": 6.351,
+      "midgrade": 4.698,
+      "premium": 5.077,
+      "regular": 4.077
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.368,
-      "midgrade": 4.739,
-      "premium": 5.087,
-      "regular": 4.096
+      "diesel": 6.367,
+      "midgrade": 4.76,
+      "premium": 5.081,
+      "regular": 4.093
     },
     "year_ago": {
-      "diesel": 3.727,
-      "midgrade": 3.666,
-      "premium": 3.982,
-      "regular": 3.052
+      "diesel": 3.719,
+      "midgrade": 3.658,
+      "premium": 4.008,
+      "regular": 3.071
     },
     "yesterday": {
-      "diesel": 6.366,
-      "midgrade": 4.715,
-      "premium": 5.077,
-      "regular": 4.095
+      "diesel": 6.359,
+      "midgrade": 4.718,
+      "premium": 5.049,
+      "regular": 4.083
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-01T06:03:23.680801Z",
+  "generated_at": "2026-11-01T13:22:58.746276Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972733,
-    "lon": -77.0271446,
+    "lat": 38.9972714,
+    "lon": -77.0271159,
     "query": "20910",
     "region": "Maryland"
   },
@@ -307,7 +307,7 @@
       },
       "brand": "Marathon",
       "cash_prices": {},
-      "distance_mi": 1.17,
+      "distance_mi": 1.18,
       "id": "osm:way/89364163",
       "lat": 39.0106386,
       "lon": -77.0406694,
@@ -571,7 +571,7 @@
       },
       "brand": "Sunoco",
       "cash_prices": {},
-      "distance_mi": 1.95,
+      "distance_mi": 1.94,
       "id": "osm:way/292847893",
       "lat": 38.9995422,
       "lon": -76.9910353,
@@ -615,7 +615,7 @@
       },
       "brand": null,
       "cash_prices": {},
-      "distance_mi": 2.06,
+      "distance_mi": 2.05,
       "id": "osm:way/91898654",
       "lat": 38.9675316,
       "lon": -77.0268585,
