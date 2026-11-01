@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-01T13:22:58.746276Z",
+  "generated_at": "2026-11-01T19:41:56.308236Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972714,
-    "lon": -77.0271159,
+    "lat": 38.9972733,
+    "lon": -77.0271446,
     "query": "20910",
     "region": "Maryland"
   },
@@ -307,7 +307,7 @@
       },
       "brand": "Marathon",
       "cash_prices": {},
-      "distance_mi": 1.18,
+      "distance_mi": 1.17,
       "id": "osm:way/89364163",
       "lat": 39.0106386,
       "lon": -77.0406694,
@@ -571,7 +571,7 @@
       },
       "brand": "Sunoco",
       "cash_prices": {},
-      "distance_mi": 1.94,
+      "distance_mi": 1.95,
       "id": "osm:way/292847893",
       "lat": 38.9995422,
       "lon": -76.9910353,
@@ -615,7 +615,7 @@
       },
       "brand": null,
       "cash_prices": {},
-      "distance_mi": 2.05,
+      "distance_mi": 2.06,
       "id": "osm:way/91898654",
       "lat": 38.9675316,
       "lon": -77.0268585,
