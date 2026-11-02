@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Frederick",
-    "as_of": "2026-11-01T00:00:00Z",
+    "as_of": "2026-11-02T00:00:00Z",
     "month_ago": {
-      "diesel": 6.446,
-      "midgrade": 4.765,
-      "premium": 5.113,
-      "regular": 4.288
+      "diesel": 6.434,
+      "midgrade": 4.748,
+      "premium": 5.088,
+      "regular": 4.277
     },
     "prices": {
-      "diesel": 6.301,
+      "diesel": 6.304,
       "midgrade": 4.49,
-      "premium": 4.853,
-      "regular": 3.982
+      "premium": 4.851,
+      "regular": 3.984
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.329,
-      "midgrade": 4.495,
-      "premium": 4.862,
-      "regular": 4.004
+      "diesel": 6.319,
+      "midgrade": 4.474,
+      "premium": 4.877,
+      "regular": 4.003
     },
     "year_ago": {
-      "diesel": 3.663,
-      "midgrade": 3.46,
-      "premium": 3.8,
-      "regular": 3.016
+      "diesel": 3.684,
+      "midgrade": 3.455,
+      "premium": 3.776,
+      "regular": 2.985
     },
     "yesterday": {
-      "diesel": 6.302,
-      "midgrade": 4.496,
-      "premium": 4.828,
-      "regular": 3.985
+      "diesel": 6.301,
+      "midgrade": 4.49,
+      "premium": 4.853,
+      "regular": 3.982
     }
   },
   "cheapest": {},
@@ -45,14 +45,14 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-02T00:48:47.794420Z",
+  "generated_at": "2026-11-02T21:53:16.290110Z",
   "name": "Frederick, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
   ],
   "place": {
     "country": "US",
-    "display_name": "Frederick, Frederick County, Maryland, United States",
+    "display_name": "Frederick, Frederick County, Maryland, 21709, United States",
     "lat": 39.415779,
     "lon": -77.4127562,
     "query": "Frederick, MD",
