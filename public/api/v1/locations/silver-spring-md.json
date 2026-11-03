@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-11-02T00:00:00Z",
+    "as_of": "2026-11-03T00:00:00Z",
     "month_ago": {
-      "diesel": 6.459,
-      "midgrade": 4.953,
-      "premium": 5.282,
-      "regular": 4.314
+      "diesel": 6.446,
+      "midgrade": 4.924,
+      "premium": 5.255,
+      "regular": 4.301
     },
     "prices": {
-      "diesel": 6.337,
-      "midgrade": 4.711,
-      "premium": 5.074,
-      "regular": 4.075
+      "diesel": 6.347,
+      "midgrade": 4.708,
+      "premium": 5.046,
+      "regular": 4.067
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.346,
-      "midgrade": 4.711,
-      "premium": 5.053,
-      "regular": 4.087
+      "diesel": 6.373,
+      "midgrade": 4.759,
+      "premium": 5.104,
+      "regular": 4.126
     },
     "year_ago": {
-      "diesel": 3.734,
-      "midgrade": 3.645,
-      "premium": 3.982,
-      "regular": 3.048
+      "diesel": 3.735,
+      "midgrade": 3.648,
+      "premium": 3.984,
+      "regular": 3.04
     },
     "yesterday": {
-      "diesel": 6.351,
-      "midgrade": 4.698,
-      "premium": 5.077,
-      "regular": 4.077
+      "diesel": 6.337,
+      "midgrade": 4.711,
+      "premium": 5.074,
+      "regular": 4.075
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-03T06:47:56.861191Z",
+  "generated_at": "2026-11-03T17:05:11.757377Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972769,
-    "lon": -77.0271419,
+    "lat": 38.9972716,
+    "lon": -77.027164,
     "query": "20910",
     "region": "Maryland"
   },
@@ -615,7 +615,7 @@
       },
       "brand": null,
       "cash_prices": {},
-      "distance_mi": 2.06,
+      "distance_mi": 2.05,
       "id": "osm:way/91898654",
       "lat": 38.9675316,
       "lon": -77.0268585,
