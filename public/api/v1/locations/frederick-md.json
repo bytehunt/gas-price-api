@@ -45,14 +45,14 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-05T17:32:19.725541Z",
+  "generated_at": "2026-11-05T23:44:10.050488Z",
   "name": "Frederick, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
   ],
   "place": {
     "country": "US",
-    "display_name": "Frederick, Frederick County, Maryland, United States",
+    "display_name": "Frederick, Frederick County, Maryland, 21709, United States",
     "lat": 39.415779,
     "lon": -77.4127562,
     "query": "Frederick, MD",
