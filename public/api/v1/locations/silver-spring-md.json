@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Washington (MD only)",
-    "as_of": "2026-11-07T00:00:00Z",
+    "as_of": "2026-11-08T00:00:00Z",
     "month_ago": {
-      "diesel": 6.405,
-      "midgrade": 4.897,
-      "premium": 5.258,
-      "regular": 4.303
+      "diesel": 6.389,
+      "midgrade": 4.939,
+      "premium": 5.246,
+      "regular": 4.31
     },
     "prices": {
-      "diesel": 6.31,
-      "midgrade": 4.661,
-      "premium": 4.993,
-      "regular": 4.012
+      "diesel": 6.302,
+      "midgrade": 4.65,
+      "premium": 4.97,
+      "regular": 4.002
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.359,
-      "midgrade": 4.718,
-      "premium": 5.049,
-      "regular": 4.083
+      "diesel": 6.351,
+      "midgrade": 4.698,
+      "premium": 5.077,
+      "regular": 4.077
     },
     "year_ago": {
-      "diesel": 3.756,
-      "midgrade": 3.643,
-      "premium": 4.007,
-      "regular": 3.06
+      "diesel": 3.78,
+      "midgrade": 3.666,
+      "premium": 4.04,
+      "regular": 3.097
     },
     "yesterday": {
-      "diesel": 6.333,
-      "midgrade": 4.679,
-      "premium": 5.015,
-      "regular": 4.029
+      "diesel": 6.31,
+      "midgrade": 4.661,
+      "premium": 4.993,
+      "regular": 4.012
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-08T00:37:08.694755Z",
+  "generated_at": "2026-11-08T10:20:22.711924Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972727,
-    "lon": -77.0271418,
+    "lat": 38.9972716,
+    "lon": -77.027164,
     "query": "20910",
     "region": "Maryland"
   },
