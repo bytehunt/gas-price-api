@@ -14,45 +14,45 @@
     "regular": "Regular",
     "unl88": "UNL88 (E15)"
   },
-  "generated_at": "2026-11-10T03:33:48.202593+00:00",
+  "generated_at": "2026-11-10T14:50:25.332869+00:00",
   "location_count": 11,
   "locations": [
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -64,13 +64,13 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:33:49.707001Z",
+      "generated_at": "2026-11-10T14:50:26.604785Z",
       "name": "Mulberry St (Downtown Baltimore)",
       "place": {
         "country": "US",
         "display_name": "427, West Mulberry Street, Chinatown, Downtown, Baltimore, Maryland, 21201, United States",
-        "lat": 39.293779,
-        "lon": -76.6221706,
+        "lat": 39.293778,
+        "lon": -76.6221733,
         "query": "427 W Mulberry St, Baltimore, MD",
         "region": "Maryland"
       },
@@ -114,39 +114,39 @@
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -158,7 +158,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:34:38.813631Z",
+      "generated_at": "2026-11-10T14:51:12.265118Z",
       "name": "Compass Rd (Middle River)",
       "place": {
         "country": "US",
@@ -208,39 +208,39 @@
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -252,7 +252,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:35:19.741878Z",
+      "generated_at": "2026-11-10T14:55:22.494088Z",
       "name": "Pulaski Hwy (Rosedale)",
       "place": {
         "country": "US",
@@ -302,39 +302,39 @@
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -346,7 +346,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:36:01.877541Z",
+      "generated_at": "2026-11-10T14:56:00.709161Z",
       "name": "Belair Rd (Hamilton)",
       "place": {
         "country": "US",
@@ -396,39 +396,39 @@
     {
       "benchmark": {
         "area": "Washington (MD only)",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.404,
-          "midgrade": 4.952,
-          "premium": 5.271,
+          "diesel": 6.424,
+          "midgrade": 4.927,
+          "premium": 5.284,
           "regular": 4.306
         },
         "prices": {
-          "diesel": 6.289,
-          "midgrade": 4.598,
-          "premium": 4.987,
-          "regular": 3.994
+          "diesel": 6.292,
+          "midgrade": 4.615,
+          "premium": 4.99,
+          "regular": 3.982
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.337,
-          "midgrade": 4.711,
-          "premium": 5.074,
-          "regular": 4.075
+          "diesel": 6.347,
+          "midgrade": 4.708,
+          "premium": 5.046,
+          "regular": 4.067
         },
         "year_ago": {
-          "diesel": 3.779,
-          "midgrade": 3.697,
-          "premium": 4.053,
-          "regular": 3.112
+          "diesel": 3.78,
+          "midgrade": 3.717,
+          "premium": 4.057,
+          "regular": 3.12
         },
         "yesterday": {
-          "diesel": 6.302,
-          "midgrade": 4.65,
-          "premium": 4.97,
-          "regular": 4.002
+          "diesel": 6.289,
+          "midgrade": 4.598,
+          "premium": 4.987,
+          "regular": 3.994
         }
       },
       "cheapest": {},
@@ -440,7 +440,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:36:38.643647Z",
+      "generated_at": "2026-11-10T14:56:45.835122Z",
       "name": "Rockville, MD",
       "place": {
         "country": "US",
@@ -490,39 +490,39 @@
     {
       "benchmark": {
         "area": "Washington (MD only)",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.404,
-          "midgrade": 4.952,
-          "premium": 5.271,
+          "diesel": 6.424,
+          "midgrade": 4.927,
+          "premium": 5.284,
           "regular": 4.306
         },
         "prices": {
-          "diesel": 6.289,
-          "midgrade": 4.598,
-          "premium": 4.987,
-          "regular": 3.994
+          "diesel": 6.292,
+          "midgrade": 4.615,
+          "premium": 4.99,
+          "regular": 3.982
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.337,
-          "midgrade": 4.711,
-          "premium": 5.074,
-          "regular": 4.075
+          "diesel": 6.347,
+          "midgrade": 4.708,
+          "premium": 5.046,
+          "regular": 4.067
         },
         "year_ago": {
-          "diesel": 3.779,
-          "midgrade": 3.697,
-          "premium": 4.053,
-          "regular": 3.112
+          "diesel": 3.78,
+          "midgrade": 3.717,
+          "premium": 4.057,
+          "regular": 3.12
         },
         "yesterday": {
-          "diesel": 6.302,
-          "midgrade": 4.65,
-          "premium": 4.97,
-          "regular": 4.002
+          "diesel": 6.289,
+          "midgrade": 4.598,
+          "premium": 4.987,
+          "regular": 3.994
         }
       },
       "cheapest": {},
@@ -534,7 +534,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:37:03.144664Z",
+      "generated_at": "2026-11-10T14:57:35.220208Z",
       "name": "Silver Spring, MD",
       "place": {
         "country": "US",
@@ -584,39 +584,39 @@
     {
       "benchmark": {
         "area": "Washington (MD only)",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.404,
-          "midgrade": 4.952,
-          "premium": 5.271,
+          "diesel": 6.424,
+          "midgrade": 4.927,
+          "premium": 5.284,
           "regular": 4.306
         },
         "prices": {
-          "diesel": 6.289,
-          "midgrade": 4.598,
-          "premium": 4.987,
-          "regular": 3.994
+          "diesel": 6.292,
+          "midgrade": 4.615,
+          "premium": 4.99,
+          "regular": 3.982
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.337,
-          "midgrade": 4.711,
-          "premium": 5.074,
-          "regular": 4.075
+          "diesel": 6.347,
+          "midgrade": 4.708,
+          "premium": 5.046,
+          "regular": 4.067
         },
         "year_ago": {
-          "diesel": 3.779,
-          "midgrade": 3.697,
-          "premium": 4.053,
-          "regular": 3.112
+          "diesel": 3.78,
+          "midgrade": 3.717,
+          "premium": 4.057,
+          "regular": 3.12
         },
         "yesterday": {
-          "diesel": 6.302,
-          "midgrade": 4.65,
-          "premium": 4.97,
-          "regular": 4.002
+          "diesel": 6.289,
+          "midgrade": 4.598,
+          "premium": 4.987,
+          "regular": 3.994
         }
       },
       "cheapest": {},
@@ -628,7 +628,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:37:31.780522Z",
+      "generated_at": "2026-11-10T14:58:23.264358Z",
       "name": "Bethesda, MD",
       "place": {
         "country": "US",
@@ -678,39 +678,39 @@
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -722,7 +722,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:38:08.180186Z",
+      "generated_at": "2026-11-10T14:59:02.466062Z",
       "name": "Columbia, MD",
       "place": {
         "country": "US",
@@ -772,39 +772,39 @@
     {
       "benchmark": {
         "area": "Baltimore",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.342,
-          "midgrade": 4.809,
+          "diesel": 6.356,
+          "midgrade": 4.817,
           "premium": 5.108,
-          "regular": 4.264
+          "regular": 4.265
         },
         "prices": {
           "diesel": 6.247,
-          "midgrade": 4.47,
-          "premium": 4.809,
-          "regular": 3.882
+          "midgrade": 4.472,
+          "premium": 4.811,
+          "regular": 3.877
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.301,
-          "midgrade": 4.526,
-          "premium": 4.859,
-          "regular": 3.948
+          "diesel": 6.292,
+          "midgrade": 4.532,
+          "premium": 4.851,
+          "regular": 3.939
         },
         "year_ago": {
-          "diesel": 3.743,
-          "midgrade": 3.61,
-          "premium": 3.895,
-          "regular": 3.115
+          "diesel": 3.749,
+          "midgrade": 3.623,
+          "premium": 3.921,
+          "regular": 3.123
         },
         "yesterday": {
-          "diesel": 6.253,
-          "midgrade": 4.475,
-          "premium": 4.81,
-          "regular": 3.888
+          "diesel": 6.247,
+          "midgrade": 4.47,
+          "premium": 4.809,
+          "regular": 3.882
         }
       },
       "cheapest": {},
@@ -816,7 +816,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:38:41.313098Z",
+      "generated_at": "2026-11-10T14:59:42.471963Z",
       "name": "Baltimore, MD",
       "place": {
         "country": "US",
@@ -866,39 +866,39 @@
     {
       "benchmark": {
         "area": "Annapolis",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.345,
-          "midgrade": 4.903,
-          "premium": 5.151,
-          "regular": 4.267
+          "diesel": 6.346,
+          "midgrade": 4.893,
+          "premium": 5.16,
+          "regular": 4.272
         },
         "prices": {
-          "diesel": 6.262,
-          "midgrade": 4.534,
-          "premium": 4.858,
-          "regular": 3.884
+          "diesel": 6.247,
+          "midgrade": 4.547,
+          "premium": 4.88,
+          "regular": 3.882
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.3,
-          "midgrade": 4.564,
-          "premium": 4.904,
-          "regular": 3.951
+          "diesel": 6.293,
+          "midgrade": 4.617,
+          "premium": 4.919,
+          "regular": 3.945
         },
         "year_ago": {
-          "diesel": 3.768,
-          "midgrade": 3.685,
-          "premium": 3.974,
-          "regular": 3.121
+          "diesel": 3.754,
+          "midgrade": 3.688,
+          "premium": 4.0,
+          "regular": 3.122
         },
         "yesterday": {
-          "diesel": 6.255,
-          "midgrade": 4.558,
-          "premium": 4.851,
-          "regular": 3.889
+          "diesel": 6.262,
+          "midgrade": 4.534,
+          "premium": 4.858,
+          "regular": 3.884
         }
       },
       "cheapest": {},
@@ -910,7 +910,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:39:07.669112Z",
+      "generated_at": "2026-11-10T15:03:41.094772Z",
       "name": "Annapolis, MD",
       "place": {
         "country": "US",
@@ -960,39 +960,39 @@
     {
       "benchmark": {
         "area": "Frederick",
-        "as_of": "2026-11-09T00:00:00Z",
+        "as_of": "2026-11-10T00:00:00Z",
         "month_ago": {
-          "diesel": 6.384,
-          "midgrade": 4.723,
-          "premium": 5.072,
-          "regular": 4.23
+          "diesel": 6.404,
+          "midgrade": 4.702,
+          "premium": 5.052,
+          "regular": 4.227
         },
         "prices": {
-          "diesel": 6.259,
-          "midgrade": 4.406,
-          "premium": 4.8,
-          "regular": 3.93
+          "diesel": 6.231,
+          "midgrade": 4.389,
+          "premium": 4.783,
+          "regular": 3.913
         },
         "scope": "metro",
         "source": "aaa",
         "url": "https://gasprices.aaa.com/?state=MD",
         "week_ago": {
-          "diesel": 6.304,
-          "midgrade": 4.49,
-          "premium": 4.851,
-          "regular": 3.984
+          "diesel": 6.302,
+          "midgrade": 4.503,
+          "premium": 4.841,
+          "regular": 3.976
         },
         "year_ago": {
-          "diesel": 3.744,
-          "midgrade": 3.571,
-          "premium": 3.913,
-          "regular": 3.081
+          "diesel": 3.758,
+          "midgrade": 3.577,
+          "premium": 3.909,
+          "regular": 3.084
         },
         "yesterday": {
-          "diesel": 6.254,
-          "midgrade": 4.457,
-          "premium": 4.754,
-          "regular": 3.931
+          "diesel": 6.259,
+          "midgrade": 4.406,
+          "premium": 4.8,
+          "regular": 3.93
         }
       },
       "cheapest": {},
@@ -1004,7 +1004,7 @@
         "premium",
         "diesel"
       ],
-      "generated_at": "2026-11-10T03:39:38.930631Z",
+      "generated_at": "2026-11-10T15:04:23.734301Z",
       "name": "Frederick, MD",
       "place": {
         "country": "US",

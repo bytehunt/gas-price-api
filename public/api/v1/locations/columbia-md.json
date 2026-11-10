@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-11-09T00:00:00Z",
+    "as_of": "2026-11-10T00:00:00Z",
     "month_ago": {
-      "diesel": 6.342,
-      "midgrade": 4.809,
+      "diesel": 6.356,
+      "midgrade": 4.817,
       "premium": 5.108,
-      "regular": 4.264
+      "regular": 4.265
     },
     "prices": {
       "diesel": 6.247,
-      "midgrade": 4.47,
-      "premium": 4.809,
-      "regular": 3.882
+      "midgrade": 4.472,
+      "premium": 4.811,
+      "regular": 3.877
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.301,
-      "midgrade": 4.526,
-      "premium": 4.859,
-      "regular": 3.948
+      "diesel": 6.292,
+      "midgrade": 4.532,
+      "premium": 4.851,
+      "regular": 3.939
     },
     "year_ago": {
-      "diesel": 3.743,
-      "midgrade": 3.61,
-      "premium": 3.895,
-      "regular": 3.115
+      "diesel": 3.749,
+      "midgrade": 3.623,
+      "premium": 3.921,
+      "regular": 3.123
     },
     "yesterday": {
-      "diesel": 6.253,
-      "midgrade": 4.475,
-      "premium": 4.81,
-      "regular": 3.888
+      "diesel": 6.247,
+      "midgrade": 4.47,
+      "premium": 4.809,
+      "regular": 3.882
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-10T03:38:08.180186Z",
+  "generated_at": "2026-11-10T14:59:02.466062Z",
   "name": "Columbia, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
