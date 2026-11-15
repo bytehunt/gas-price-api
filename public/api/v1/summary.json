@@ -9,10 +9,10 @@
       "source": "aaa"
     },
     "midgrade": {
-      "area": "Baltimore",
-      "location": "Pulaski Hwy (Rosedale)",
-      "location_slug": "pulaski-hwy-rosedale",
-      "price": 4.329,
+      "area": "Frederick",
+      "location": "Frederick, MD",
+      "location_slug": "frederick-md",
+      "price": 4.333,
       "scope": "metro",
       "source": "aaa"
     },
@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-11-15T16:20:16.198141+00:00",
+  "generated_at": "2026-11-15T22:46:45.496428+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -58,12 +58,12 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.751,
+      "area_average_regular": 3.743,
       "degraded": false,
       "name": "Pulaski Hwy (Rosedale)",
       "regular": null,
       "slug": "pulaski-hwy-rosedale",
-      "stale": true,
+      "stale": false,
       "station_prices": false
     },
     {
