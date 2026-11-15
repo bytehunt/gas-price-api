@@ -48,7 +48,8 @@
   "generated_at": "2026-11-15T06:26:42.199521Z",
   "name": "Pulaski Hwy (Rosedale)",
   "notes": [
-    "no per-station prices for this area; station locations plus area averages"
+    "no per-station prices for this area; station locations plus area averages",
+    "overpass: all overpass endpoints failed: https://overpass.private.coffee/api/interpreter failed after 4 attempts: "
   ],
   "place": {
     "country": "US",
@@ -73,7 +74,8 @@
     "overpass",
     "aaa"
   ],
-  "stale": false,
+  "stale": true,
+  "stale_as_of": "2026-11-15T16:20:16.198141+00:00",
   "station_prices": false,
   "stations": [
     {
