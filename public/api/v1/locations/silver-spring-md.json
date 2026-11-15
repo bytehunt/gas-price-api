@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-14T22:24:53.542402Z",
+  "generated_at": "2026-11-15T06:29:41.876954Z",
   "name": "Silver Spring, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "20910, Montgomery County, Maryland, United States",
-    "lat": 38.9972727,
-    "lon": -77.0271418,
+    "lat": 38.9972671,
+    "lon": -77.0271623,
     "query": "20910",
     "region": "Maryland"
   },
