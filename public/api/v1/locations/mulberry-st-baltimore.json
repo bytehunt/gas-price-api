@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-11-16T00:00:00Z",
+    "as_of": "2026-11-17T00:00:00Z",
     "month_ago": {
-      "diesel": 6.313,
-      "midgrade": 4.701,
-      "premium": 5.005,
-      "regular": 4.132
+      "diesel": 6.329,
+      "midgrade": 4.673,
+      "premium": 4.967,
+      "regular": 4.11
     },
     "prices": {
-      "diesel": 6.025,
-      "midgrade": 4.321,
-      "premium": 4.62,
-      "regular": 3.738
+      "diesel": 6.011,
+      "midgrade": 4.326,
+      "premium": 4.611,
+      "regular": 3.735
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
       "diesel": 6.247,
-      "midgrade": 4.47,
-      "premium": 4.809,
-      "regular": 3.882
+      "midgrade": 4.472,
+      "premium": 4.811,
+      "regular": 3.877
     },
     "year_ago": {
-      "diesel": 3.826,
-      "midgrade": 3.629,
-      "premium": 3.926,
-      "regular": 3.119
+      "diesel": 3.829,
+      "midgrade": 3.634,
+      "premium": 3.941,
+      "regular": 3.123
     },
     "yesterday": {
-      "diesel": 6.038,
-      "midgrade": 4.334,
-      "premium": 4.636,
-      "regular": 3.743
+      "diesel": 6.025,
+      "midgrade": 4.321,
+      "premium": 4.62,
+      "regular": 3.738
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-17T03:49:53.427695Z",
+  "generated_at": "2026-11-17T15:57:16.092741Z",
   "name": "Mulberry St (Downtown Baltimore)",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -53,8 +53,8 @@
   "place": {
     "country": "US",
     "display_name": "427, West Mulberry Street, Chinatown, Downtown, Baltimore, Maryland, 21201, United States",
-    "lat": 39.293779,
-    "lon": -76.6221706,
+    "lat": 39.293778,
+    "lon": -76.6221733,
     "query": "427 W Mulberry St, Baltimore, MD",
     "region": "Maryland"
   },
