@@ -34,7 +34,7 @@
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-11-17T15:57:14.337187+00:00",
+  "generated_at": "2026-11-18T00:57:01.432415+00:00",
   "locations": [
     {
       "area": "Baltimore",
@@ -73,7 +73,7 @@
       "name": "Belair Rd (Hamilton)",
       "regular": null,
       "slug": "belair-rd-baltimore",
-      "stale": false,
+      "stale": true,
       "station_prices": false
     },
     {
