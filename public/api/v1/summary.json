@@ -1,10 +1,10 @@
 {
   "cheapest_area_average_by_fuel": {
     "diesel": {
-      "area": "Baltimore",
-      "location": "Mulberry St (Downtown Baltimore)",
-      "location_slug": "mulberry-st-baltimore",
-      "price": 6.008,
+      "area": "Annapolis",
+      "location": "Annapolis, MD",
+      "location_slug": "annapolis-md",
+      "price": 5.99,
       "scope": "metro",
       "source": "aaa"
     },
@@ -12,7 +12,7 @@
       "area": "Frederick",
       "location": "Frederick, MD",
       "location_slug": "frederick-md",
-      "price": 4.25,
+      "price": 4.207,
       "scope": "metro",
       "source": "aaa"
     },
@@ -20,25 +20,25 @@
       "area": "Baltimore",
       "location": "Mulberry St (Downtown Baltimore)",
       "location_slug": "mulberry-st-baltimore",
-      "price": 4.577,
+      "price": 4.547,
       "scope": "metro",
       "source": "aaa"
     },
     "regular": {
-      "area": "Baltimore",
-      "location": "Mulberry St (Downtown Baltimore)",
-      "location_slug": "mulberry-st-baltimore",
-      "price": 3.708,
+      "area": "Annapolis",
+      "location": "Annapolis, MD",
+      "location_slug": "annapolis-md",
+      "price": 3.69,
       "scope": "metro",
       "source": "aaa"
     }
   },
   "cheapest_by_fuel": {},
-  "generated_at": "2026-11-19T02:32:52.374983+00:00",
+  "generated_at": "2026-11-19T11:35:34.960613+00:00",
   "locations": [
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Mulberry St (Downtown Baltimore)",
       "regular": null,
@@ -48,7 +48,7 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Compass Rd (Middle River)",
       "regular": null,
@@ -58,7 +58,7 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Pulaski Hwy (Rosedale)",
       "regular": null,
@@ -68,7 +68,7 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Belair Rd (Hamilton)",
       "regular": null,
@@ -78,7 +78,7 @@
     },
     {
       "area": "Washington (MD only)",
-      "area_average_regular": 3.835,
+      "area_average_regular": 3.816,
       "degraded": false,
       "name": "Rockville, MD",
       "regular": null,
@@ -88,7 +88,7 @@
     },
     {
       "area": "Washington (MD only)",
-      "area_average_regular": 3.835,
+      "area_average_regular": 3.816,
       "degraded": false,
       "name": "Silver Spring, MD",
       "regular": null,
@@ -98,7 +98,7 @@
     },
     {
       "area": "Washington (MD only)",
-      "area_average_regular": 3.835,
+      "area_average_regular": 3.816,
       "degraded": false,
       "name": "Bethesda, MD",
       "regular": null,
@@ -108,7 +108,7 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Columbia, MD",
       "regular": null,
@@ -118,7 +118,7 @@
     },
     {
       "area": "Baltimore",
-      "area_average_regular": 3.708,
+      "area_average_regular": 3.693,
       "degraded": false,
       "name": "Baltimore, MD",
       "regular": null,
@@ -128,7 +128,7 @@
     },
     {
       "area": "Annapolis",
-      "area_average_regular": 3.71,
+      "area_average_regular": 3.69,
       "degraded": false,
       "name": "Annapolis, MD",
       "regular": null,
@@ -138,7 +138,7 @@
     },
     {
       "area": "Frederick",
-      "area_average_regular": 3.759,
+      "area_average_regular": 3.741,
       "degraded": false,
       "name": "Frederick, MD",
       "regular": null,
