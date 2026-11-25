@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-24T13:45:23.327421Z",
+  "generated_at": "2026-11-25T00:00:33.323836Z",
   "name": "Baltimore, MD",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
@@ -276,14 +276,14 @@
     },
     {
       "address": {
-        "city": "Baltimore",
+        "city": null,
         "country": null,
-        "line1": "17 East Mount Royal Avenue",
+        "line1": null,
         "line2": null,
-        "postal_code": "21202",
-        "region": "MD"
+        "postal_code": null,
+        "region": null
       },
-      "brand": "Carroll",
+      "brand": "BP",
       "cash_prices": {},
       "distance_mi": 1.01,
       "id": "osm:node/499852086",
