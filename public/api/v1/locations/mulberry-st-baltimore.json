@@ -1,39 +1,39 @@
 {
   "benchmark": {
     "area": "Baltimore",
-    "as_of": "2026-11-26T00:00:00Z",
+    "as_of": "2026-11-27T00:00:00Z",
     "month_ago": {
-      "diesel": 6.301,
-      "midgrade": 4.505,
-      "premium": 4.837,
-      "regular": 3.932
+      "diesel": 6.318,
+      "midgrade": 4.544,
+      "premium": 4.866,
+      "regular": 3.957
     },
     "prices": {
-      "diesel": 5.816,
-      "midgrade": 4.08,
-      "premium": 4.406,
-      "regular": 3.531
+      "diesel": 5.806,
+      "midgrade": 4.071,
+      "premium": 4.416,
+      "regular": 3.528
     },
     "scope": "metro",
     "source": "aaa",
     "url": "https://gasprices.aaa.com/?state=MD",
     "week_ago": {
-      "diesel": 6.0,
-      "midgrade": 4.26,
-      "premium": 4.547,
-      "regular": 3.693
+      "diesel": 5.993,
+      "midgrade": 4.248,
+      "premium": 4.538,
+      "regular": 3.68
     },
     "year_ago": {
-      "diesel": 3.797,
-      "midgrade": 3.518,
+      "diesel": 3.794,
+      "midgrade": 3.526,
       "premium": 3.804,
       "regular": 3.01
     },
     "yesterday": {
-      "diesel": 5.871,
-      "midgrade": 4.132,
-      "premium": 4.435,
-      "regular": 3.555
+      "diesel": 5.816,
+      "midgrade": 4.08,
+      "premium": 4.406,
+      "regular": 3.531
     }
   },
   "cheapest": {},
@@ -45,7 +45,7 @@
     "premium",
     "diesel"
   ],
-  "generated_at": "2026-11-27T01:43:35.997450Z",
+  "generated_at": "2026-11-27T12:12:08.751588Z",
   "name": "Mulberry St (Downtown Baltimore)",
   "notes": [
     "no per-station prices for this area; station locations plus area averages"
